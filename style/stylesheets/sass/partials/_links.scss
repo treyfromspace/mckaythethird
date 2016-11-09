@@ -1,0 +1,79 @@
+// LINK STYLES
+a,a:visited,a:hover,a:active,a:focus {
+  position:relative;
+  transition:0.3s color ease;
+  text-decoration:none;
+  color: $red;
+}
+a:hover {
+  color:$eerie-black;
+}
+
+// ANIMATED LINK
+a.tm--link-hover:after {
+  content: "";
+  transition:0.2s all ease-in-out;
+  position:absolute;
+  bottom:2px;
+  height:1px;
+  opacity: 0;
+  width:100%;
+  left:0;
+  background:$eerie-black;
+}
+a.tm--link-hover:hover:after {
+  opacity:.4;
+  bottom:-1px;
+}
+
+a.tm--link-light-grey,a.tm--link-light-grey:visited,a.tm--link-light-grey:active {
+  color: $light-grey;
+}
+a.tm--link-light-grey:hover,a.tm--link-light-grey:focus {
+  color: $medium-grey;
+}
+
+// GREY LINKS
+a.tm--link-grey,a.tm--link-grey:visited,a.tm--link-grey:active {
+  color: $medium-grey;
+}
+a.tm--link-grey:hover,a.tm--link-grey:focus {
+  color: $eerie-black;
+}
+
+// ACTIVE LINK
+a.tm--link-active {
+  color: $eerie-black;
+  cursor: default;
+}
+a.tm--link-active:after {
+  opacity:.4;
+  bottom:-1px;
+}
+
+// BUTTON STYLES
+.btn, .btn:visited {
+  border: none;
+  background-color: $eerie-black;
+  border-radius: 3px;
+  color: $white;
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 10px;
+  display: inline-block;
+  line-height: 1em;
+  padding: 1em 2em;
+  transition: all 0.3s ease-in-out;
+}
+.btn:hover, .btn:active {
+  border: none;
+  background-color: $true-black;
+  border-radius: 3px;
+  color: $white;
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 10px;
+  display: inline-block;
+  line-height: 1em;
+  padding: 1em 2em;
+}

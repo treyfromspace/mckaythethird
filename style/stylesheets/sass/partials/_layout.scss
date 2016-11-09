@@ -1,0 +1,116 @@
+// MAIN LAYOUT
+.body-copy {
+  width:86%;
+  margin:7% 0 0 7%;
+  position: relative;
+}
+.tm-site-header {
+  padding: 3em 7%;
+}
+.tm-header--snug {
+  width:86%;
+  padding: 3rem 7% 0;
+}
+.tm-about-intro {
+  width:86%;
+  padding:5% 7%;
+  margin-top:3rem;
+}
+.work-timeline {
+  width:86%;
+  padding: 7%;
+  margin:0;
+  position: relative;
+  background-color: #edeff1;
+}
+.select-work {
+  width:86%;
+  padding: 7%;
+  margin-top: 5%;
+}
+.elevator-pitch {
+  margin-top: 3%;
+  max-width: 1280px;
+}
+.past-roles {
+  margin-top:5%;
+}
+
+// POSTS
+.post {
+  width:90%;
+  margin:60px auto 0;
+  position: relative;
+  max-width: 680px;
+}
+.post.last {
+  margin-bottom: 60px;
+}
+.intro {
+  opacity: 0.7;
+}
+.post-date {
+  font-family: 'Vollkorn', Georgia, serif;
+  font-size: .75em;
+  letter-spacing: .5px;
+  color: #575bb9;
+  display:block;
+}
+.edit-date {
+  color: #2f2d4b;
+  opacity: 0.6;
+  padding-left: 8px;
+}
+.post  p {
+  margin-bottom:20px;
+}
+.post-title {
+  color: #2f2d4b;
+  font-weight: bold;
+  padding-top: 60px;
+  border-top: 1px solid #e0e3e5;
+  margin: 0  0 20px;
+}
+.first-post {
+  .post-title {
+    padding-top: 0;
+    border-top: none;
+  }
+}
+
+// PROJECT CARDS
+.project-card_info {
+  padding: 10%;
+}
+
+// PROJECTS
+.project-overview {
+  width:86%;
+  padding: 7%;
+}
+.project-intro {
+  width: 86%;
+  padding-left: 7%;
+  padding-right: 7%;
+}
+.project-hero {
+  width:86%;
+  padding: 5% 7%;
+}
+.project-info {
+  max-width: 40em;
+  margin: 0 auto;
+}
+.tm-project-footer {
+  width:100%;
+  padding: 3rem 0;
+}
+.project-copy {
+  max-width:900px;
+  font-family: Vollkorn, serif;
+  font-size: 22px;
+  color: rgba(0,0,0,0.7);
+}
+.project-section {
+  margin: 7% 0;
+}

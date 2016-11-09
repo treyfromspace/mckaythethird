@@ -1,0 +1,134 @@
+// TYPE STYLES GO HERE
+h1 {
+  font-size: 1.6em;
+}
+h2 {
+  font-size: 1.2em;
+}
+p {
+  margin: 0;
+  line-height:  1.6em;
+}
+.tm--font-serif {
+  font-family: 'PT Serif', serif; 
+}
+.tm--font-sans {
+  font-family: 'Open Sans', sans-serif;
+}
+.tm--font-weight-normal {
+  font-weight: normal;
+}
+.tm--font-weight-bold {
+  font-weight: 700;
+}
+.tm--font-weight-heavy {
+  font-weight: 800;
+}
+
+// FONT SIZES
+.tm--font-size-14 {
+  font-size: 14px;
+  line-height: 1.5em;
+}
+.tm--font-size-16 {
+  font-size:16px;
+  line-height: 26px;
+}
+.tm--font-size-18 {
+  font-size: 18px;
+  line-height: 1.5em;
+}
+.tm--font-size-22 {
+  font-size: 22px;
+  line-height:  1.5em;
+}
+.tm--font-size-24 {
+  font-size: 24px;
+  line-height: 1.7em;
+}
+.tm--font-size-26 {
+  font-size: 26px;
+  line-height: 1.5em;
+}
+.tm--font-size-30 {
+  font-size: 30px;
+}
+.tm--font-size-36 {
+  font-size: 36px;
+  line-height:1.4em;
+}
+.tm--font-size-40 {
+  font-size: 40px;
+  line-height:1.4em;
+}
+.tm--font-size-44 {
+  font-size: 44px;
+  line-height:1.4em;
+}
+.tm--font-size-48 {
+  font-size: 48px;
+  line-height: 1em;
+}
+.tm--font-size-72 {
+  font-size: 72px;
+  line-height: 1em;
+}
+.tm--font-size-108 {
+  font-size: 108px;
+  line-height: 1em;
+}
+.tm--font-size-128 {
+  font-size: 128px;
+  line-height: 1em;
+}
+.tm--font-size-168 {
+  font-size: 168px;
+  line-height: 1em;
+}
+.tm--font-size-188 {
+  font-size: 188px;
+  line-height: .9em;
+}
+.tm--line-height-1 {
+  line-height:  1em;
+}
+
+/*TYPE MODS*/
+.tm--letter-spacing-05 {
+  letter-spacing: 0.5px;
+}
+.tm--letter-spacing-1 {
+  letter-spacing: 1px;
+}
+.tm--letter-spacing-3 {
+  letter-spacing: 3px;
+}
+.tm--letter-spacing-10 {
+  letter-spacing: 10px;
+}
+.tm--main-headline {
+  transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease; /* Firefox 4 */
+  -webkit-transition: all 0.2s ease; /* Safari and Chrome */
+  -o-transition: all 0.2s ease; /* Opera */
+  -ms-transition: all 0.2s ease; /* Explorer 10 */
+}
+.tm-nav-list_link:after {
+  content: "/";
+  padding: 0 .5em 0 .5em;
+  color: rgba(0,0,0,0.4);
+}
+.tm-nav-list_link.last:after {
+  color: rgba(0,0,0,0.0);
+}
+
+/*TEXT ALIGNMENT*/
+.tm--text-center {
+  text-align: center;
+}
+.tm--text-right {
+  text-align: right;
+}
+.tm--blackletter-align {
+  margin-left:-3px;
+}

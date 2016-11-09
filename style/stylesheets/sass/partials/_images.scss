@@ -1,0 +1,35 @@
+// IMAGE STYLES
+.cover-img_container {
+  max-height: 400px;
+  overflow: hidden;
+  border-radius: 3px;
+}
+.img--feature {
+  max-width:93%;
+  margin-top: 7%;
+}
+.img--hero {
+  max-width: 93%;
+}
+.img--in-section {
+  max-width:86%;
+  margin: 0 7%;
+}
+.img--width-full {
+  max-width: 100%;
+  min-width: 100%;
+}
+.tm-cover-img {
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.tm-cover-img--3d-tools {
+  background-image: url('http://treymckay.net/img/3d-tools-cover-big.jpg');
+}
+.tm-cover-img--forums {
+  background-image: url('http://treymckay.net/img/forums-cover-big.jpg');
+}
+.tm-cover-img--product-edit {
+  background-image: url('http://treymckay.net/img/product-edit-cover-big.jpg');
+}

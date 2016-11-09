@@ -1,0 +1,1625 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 1, sass/partials/_base.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 21, sass/partials/_base.scss */
+html {
+  line-height: 1;
+  font-size: 18px;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/* line 30, sass/partials/_base.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 31, sass/partials/_base.scss */
+q, blockquote {
+  quotes: none;
+}
+
+/* line 34, sass/partials/_base.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 38, sass/partials/_base.scss */
+a img {
+  border: none;
+}
+
+/* line 41, sass/partials/_base.scss */
+img {
+  vertical-align: bottom !important;
+}
+
+/* line 45, sass/partials/_base.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 49, sass/partials/_base.scss */
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+
+/* line 54, sass/partials/_base.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/* line 58, sass/partials/_base.scss */
+.clearfix {
+  zoom: 1;
+}
+
+/* line 62, sass/partials/_base.scss */
+body {
+  margin: 0;
+  font-size: 18px;
+  line-height: 30px;
+  color: #1e1e1e;
+  font-family: 'PT Serif', Georgia, serif;
+  line-height: 1.5em;
+  font-weight: normal;
+  text-decoration: none;
+  background-color: #dbdbdb;
+}
+
+/* line 73, sass/partials/_base.scss */
+button, input, select, textarea {
+  font-family: sans-serif;
+  color: #1e1e1e;
+}
+
+/* line 77, sass/partials/_base.scss */
+::-moz-selection {
+  background: #1e1e1e;
+  color: #F2F2F2;
+  text-shadow: none;
+}
+
+/* line 82, sass/partials/_base.scss */
+::selection {
+  background: #1e1e1e;
+  color: #F2F2F2;
+  text-shadow: none;
+}
+
+/*ICON OVERRIDES*/
+/* line 89, sass/partials/_base.scss */
+.fa {
+  line-height: 22px !important;
+  vertical-align: middle;
+}
+
+/* Base classes for all media */
+/* line 95, sass/partials/_base.scss */
+.tm-grid--fit > .tm-grid_cell {
+  flex: 1;
+}
+
+/* line 98, sass/partials/_base.scss */
+.tm-grid--full > .tm-grid_cell {
+  flex: 0 0 100%;
+}
+
+/* line 101, sass/partials/_base.scss */
+.tm-grid--full > .tm-grid_cell.tm-grid_cell-1of3 {
+  flex: 0 0 100% !important;
+}
+
+/* line 104, sass/partials/_base.scss */
+.tm-grid--full.tm-grid--gutters-large > .tm-grid_cell {
+  flex: 0 0 90%;
+}
+
+/* line 107, sass/partials/_base.scss */
+.tm-grid--full.tm-grid--gutters > .tm-grid_cell {
+  flex: 0 0 98%;
+}
+
+/* line 110, sass/partials/_base.scss */
+.tm-footer-grid.tm-grid--full > .tm-grid_cell {
+  flex: 0 0 100%;
+  margin: 1.25em 0;
+}
+
+/* line 114, sass/partials/_base.scss */
+.tm-grid--1of2 > .tm-grid_cell {
+  flex: 0 0 43%;
+}
+
+/* line 117, sass/partials/_base.scss */
+.tm-grid--1of3 > .tm-grid_cell {
+  flex: 0 0 33.3333%;
+}
+
+/* line 120, sass/partials/_base.scss */
+.tm-grid--1of4 > .tm-grid_cell {
+  flex: 0 0 25%;
+}
+
+/* small screens to medium */
+@media (min-width: 1em) and (max-width: 34em) {
+  /* line 126, sass/partials/_base.scss */
+  .tm--font-size--14--mob {
+    font-size: 14px;
+    line-height: 1.5em;
+  }
+
+  /* line 130, sass/partials/_base.scss */
+  .tm--font-size-18--mob {
+    font-size: 18px;
+    line-height: 1.5em;
+  }
+
+  /* line 134, sass/partials/_base.scss */
+  .tm--font-size-24--mob {
+    font-size: 24px;
+    line-height: 1.5em;
+  }
+
+  /* line 138, sass/partials/_base.scss */
+  .tm--font-size-32--mob {
+    font-size: 32px;
+    line-height: 1.5em;
+  }
+
+  /* line 142, sass/partials/_base.scss */
+  .tm--font-size-60--mob {
+    font-size: 60px;
+  }
+
+  /* line 145, sass/partials/_base.scss */
+  .tm--hide--mob {
+    display: none;
+  }
+
+  /* line 148, sass/partials/_base.scss */
+  .tm--width-full--mob {
+    max-width: 100%;
+  }
+
+  /* line 151, sass/partials/_base.scss */
+  .tm--text-center-mob {
+    text-align: center;
+  }
+
+  /* line 154, sass/partials/_base.scss */
+  .tm--text-left-mob {
+    text-align: left;
+  }
+
+  /* line 157, sass/partials/_base.scss */
+  .tm--display-block-mob {
+    display: block;
+  }
+
+  /* line 160, sass/partials/_base.scss */
+  .tm--padding-0-mob {
+    padding: 0;
+  }
+
+  /* line 163, sass/partials/_base.scss */
+  .tm--margin-bottom-2-mob {
+    margin-bottom: 10px;
+  }
+
+  /* line 166, sass/partials/_base.scss */
+  .tm--padding-top-6-mob {
+    padding-top: 30px;
+  }
+
+  /* line 169, sass/partials/_base.scss */
+  .tm--margin-top-4-mob {
+    margin-top: 20px;
+  }
+
+  /* line 172, sass/partials/_base.scss */
+  .tm--margin-bottom-0-mob {
+    margin-bottom: 0;
+  }
+
+  /* line 175, sass/partials/_base.scss */
+  .select-work, .tm-about-intro {
+    padding-top: 7%;
+  }
+
+  /* line 178, sass/partials/_base.scss */
+  .tm-about-intro {
+    margin-top: 2rem;
+  }
+
+  /* line 181, sass/partials/_base.scss */
+  .tm--font-size-24--mob {
+    font-size: 24px;
+  }
+
+  /* line 184, sass/partials/_base.scss */
+  .tm--font-size-30--mob {
+    font-size: 30px;
+  }
+
+  /* line 187, sass/partials/_base.scss */
+  .tm-project-footer {
+    width: 86%;
+    padding: 3rem 7%;
+  }
+
+  /* line 191, sass/partials/_base.scss */
+  .tm--main-headline {
+    font-size: 64px;
+    line-height: 1em;
+  }
+
+  /* line 195, sass/partials/_base.scss */
+  .tm--bg-image {
+    background-image: none !important;
+  }
+}
+/* medium screens to large */
+@media (min-width: 34em) and (max-width: 48em) {
+  /* line 202, sass/partials/_base.scss */
+  .small-tm-grid--fit > .tm-grid_cell {
+    flex: 1;
+  }
+
+  /* line 205, sass/partials/_base.scss */
+  .small-tm-grid--full > .tm-grid_cell {
+    flex: 0 0 100%;
+  }
+
+  /* line 208, sass/partials/_base.scss */
+  .small-tm-grid--1of2 > .tm-grid_cell {
+    flex: 0 0 50%;
+  }
+
+  /* line 211, sass/partials/_base.scss */
+  .small-tm-grid--1of3 > .tm-grid_cell {
+    flex: 0 0 33.3333%;
+  }
+
+  /* line 214, sass/partials/_base.scss */
+  .small-tm-grid--1of4 > .tm-grid_cell {
+    flex: 0 0 25%;
+  }
+
+  /* line 217, sass/partials/_base.scss */
+  .tm--font-size-84--tab {
+    font-size: 84px;
+  }
+
+  /* line 220, sass/partials/_base.scss */
+  .tm--hide--tab {
+    display: none;
+  }
+
+  /* line 223, sass/partials/_base.scss */
+  .tm--width-three-qtr--tab {
+    max-width: 75%;
+  }
+
+  /* line 226, sass/partials/_base.scss */
+  .tm--text-center-tab {
+    text-align: center;
+  }
+
+  /* line 229, sass/partials/_base.scss */
+  .tm--text-left-tab {
+    text-align: left;
+  }
+
+  /* line 232, sass/partials/_base.scss */
+  .select-work, .tm-about-intro {
+    padding-top: 7%;
+  }
+
+  /* line 235, sass/partials/_base.scss */
+  .tm-about-intro {
+    margin-top: 2rem;
+  }
+
+  /* line 238, sass/partials/_base.scss */
+  .tm-project-footer {
+    width: 86%;
+    padding: 3rem 7%;
+  }
+}
+/*SMALL DETAIL FOR PROJECT FOOTER SPACING*/
+@media (max-width: 1334px) {
+  /* line 246, sass/partials/_base.scss */
+  .tm-project-footer {
+    width: 86%;
+    padding: 3rem 7%;
+  }
+}
+/*DETAILS FOR JUMBO TEXT*/
+@media (min-width: 1rem) and (max-width: 34rem) {
+  /* line 253, sass/partials/_base.scss */
+  .tm--main-headline {
+    font-size: 3rem;
+    line-height: .9em;
+  }
+}
+@media (min-width: 34rem) and (max-width: 44rem) {
+  /* line 259, sass/partials/_base.scss */
+  .tm--main-headline {
+    font-size: 4rem;
+    line-height: .9em;
+  }
+}
+@media (min-width: 44rem) and (max-width: 60rem) {
+  /* line 265, sass/partials/_base.scss */
+  .tm--main-headline {
+    font-size: 5rem;
+    line-height: .9em;
+  }
+}
+@media (min-width: 60rem) and (max-width: 80rem) {
+  /* line 271, sass/partials/_base.scss */
+  .tm--main-headline {
+    font-size: 6rem;
+    line-height: .9em;
+  }
+}
+@media (min-width: 80rem) {
+  /* line 277, sass/partials/_base.scss */
+  .tm--main-headline {
+    font-size: 8rem;
+    line-height: .9em;
+  }
+}
+/* Large screens */
+@media (min-width: 48em) {
+  /* line 287, sass/partials/_base.scss */
+  .tm-footer-grid.large-tm-grid--fit > .tm-grid_cell {
+    flex: 1;
+  }
+
+  /* line 290, sass/partials/_base.scss */
+  .large-tm-grid--fit > .tm-grid_cell {
+    flex: 1 !important;
+  }
+
+  /* line 293, sass/partials/_base.scss */
+  .large-tm-grid--fit > .tm-grid_cell.tm-grid_cell-1of3 {
+    flex: none !important;
+    width: 33% !important;
+  }
+
+  /* line 297, sass/partials/_base.scss */
+  .large-tm-grid--full > .tm-grid_cell {
+    flex: 0 0 100%;
+  }
+
+  /* line 300, sass/partials/_base.scss */
+  .tm-grid--gutters-large.large-tm-grid--1of2 > .tm-grid_cell {
+    flex: 0 0 40%;
+  }
+
+  /* line 303, sass/partials/_base.scss */
+  .large-tm-grid--1of2 > .tm-grid_cell {
+    flex: 0 0 50%;
+  }
+
+  /* line 306, sass/partials/_base.scss */
+  .large-tm-grid--1of3 > .tm-grid_cell {
+    flex: 0 0 33.3333%;
+  }
+
+  /* line 309, sass/partials/_base.scss */
+  .large-tm-grid--1of4 > .tm-grid_cell {
+    flex: 0 0 25%;
+  }
+
+  /* line 312, sass/partials/_base.scss */
+  .large-tm-grid--fit > .tm-grid_cell.tm-grid--1of4 {
+    flex: 0 0 25% !important;
+  }
+
+  /* line 315, sass/partials/_base.scss */
+  .tm--centered--desk {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* line 319, sass/partials/_base.scss */
+  .tm--text-align-center--desk {
+    text-align: center;
+  }
+
+  /* line 322, sass/partials/_base.scss */
+  .tm--hide--mob, .tm--hide--tab {
+    display: initial;
+  }
+
+  /* line 325, sass/partials/_base.scss */
+  .tm--padding-0-desk {
+    padding: 0;
+  }
+}
+@-webkit-keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fade-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+@-moz-keyframes fade-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+@keyframes fade-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+/* line 42, sass/partials/_animation.scss */
+.tm-transition-enabled {
+  opacity: 0;
+}
+
+/* line 45, sass/partials/_animation.scss */
+.tm-transition-in {
+  -webkit-animation: fade-in ease-in;
+  animation: fade-in ease-in;
+  -webkit-animation-duration: 0.4s;
+  animation-duration: 0.4s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+/* line 53, sass/partials/_animation.scss */
+.fade-in--delay-03 {
+  -webkit-animation-delay: 0.3s;
+  -moz-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+}
+
+/* line 58, sass/partials/_animation.scss */
+.fade-in--delay-05 {
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+}
+
+/* line 63, sass/partials/_animation.scss */
+.fade-in--delay-07 {
+  -webkit-animation-delay: 0.7s;
+  -moz-animation-delay: 0.7s;
+  animation-delay: 0.7s;
+}
+
+/* line 68, sass/partials/_animation.scss */
+.fade-in--delay-09 {
+  -webkit-animation-delay: 0.9s;
+  -moz-animation-delay: 0.9s;
+  animation-delay: 0.9s;
+}
+
+/* line 73, sass/partials/_animation.scss */
+.fade-in--delay-1 {
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  animation-delay: 1s;
+}
+
+/* line 2, sass/partials/_grid.scss */
+.tm-grid {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+
+/* line 9, sass/partials/_grid.scss */
+.tm-grid--fullscreen {
+  min-height: 100vh;
+}
+
+/* line 12, sass/partials/_grid.scss */
+.tm-grid_cell {
+  flex: 1;
+}
+
+/* line 15, sass/partials/_grid.scss */
+.tm-grid--flexCells > .tm-grid_cell {
+  display: flex;
+}
+
+/* line 18, sass/partials/_grid.scss */
+.tm-grid_cell-1of3 {
+  flex: none !important;
+  width: 33% !important;
+}
+
+/* line 24, sass/partials/_grid.scss */
+.tm-grid--gutters {
+  margin: -2% 0 0 -2%;
+}
+
+/* line 27, sass/partials/_grid.scss */
+.tm-grid--gutters > .tm-grid_cell {
+  padding: 2% 0 0 2%;
+}
+
+/* line 32, sass/partials/_grid.scss */
+.tm-grid--gutters-large > .tm-grid_cell {
+  padding: 5%;
+}
+
+/* line 35, sass/partials/_grid.scss */
+.tm-grid--gutters-large {
+  margin: -5%;
+}
+
+/* line 40, sass/partials/_grid.scss */
+.tm-grid--top {
+  align-items: flex-start;
+}
+
+/* line 43, sass/partials/_grid.scss */
+.tm-grid--bottom {
+  align-items: flex-end;
+}
+
+/* line 46, sass/partials/_grid.scss */
+.tm-grid--center {
+  align-items: center;
+}
+
+/* line 51, sass/partials/_grid.scss */
+.tm-grid_cell--top {
+  align-self: flex-start;
+}
+
+/* line 54, sass/partials/_grid.scss */
+.tm-grid_cell--bottom {
+  align-self: flex-end;
+}
+
+/* line 57, sass/partials/_grid.scss */
+.tm-grid_cell--center {
+  align-self: center;
+}
+
+/* line 2, sass/partials/_layout.scss */
+.body-copy {
+  width: 86%;
+  margin: 7% 0 0 7%;
+  position: relative;
+}
+
+/* line 7, sass/partials/_layout.scss */
+.tm-site-header {
+  padding: 3em 7%;
+}
+
+/* line 10, sass/partials/_layout.scss */
+.tm-header--snug {
+  width: 86%;
+  padding: 3rem 7% 0;
+}
+
+/* line 14, sass/partials/_layout.scss */
+.tm-about-intro {
+  width: 86%;
+  padding: 5% 7%;
+  margin-top: 3rem;
+}
+
+/* line 19, sass/partials/_layout.scss */
+.work-timeline {
+  width: 86%;
+  padding: 7%;
+  margin: 0;
+  position: relative;
+  background-color: #edeff1;
+}
+
+/* line 26, sass/partials/_layout.scss */
+.select-work {
+  width: 86%;
+  padding: 7%;
+  margin-top: 5%;
+}
+
+/* line 31, sass/partials/_layout.scss */
+.elevator-pitch {
+  margin-top: 3%;
+  max-width: 1280px;
+}
+
+/* line 35, sass/partials/_layout.scss */
+.past-roles {
+  margin-top: 5%;
+}
+
+/* line 40, sass/partials/_layout.scss */
+.post {
+  width: 90%;
+  margin: 60px auto 0;
+  position: relative;
+  max-width: 680px;
+}
+
+/* line 46, sass/partials/_layout.scss */
+.post.last {
+  margin-bottom: 60px;
+}
+
+/* line 49, sass/partials/_layout.scss */
+.intro {
+  opacity: 0.7;
+}
+
+/* line 52, sass/partials/_layout.scss */
+.post-date {
+  font-family: 'Vollkorn', Georgia, serif;
+  font-size: .75em;
+  letter-spacing: .5px;
+  color: #575bb9;
+  display: block;
+}
+
+/* line 59, sass/partials/_layout.scss */
+.edit-date {
+  color: #2f2d4b;
+  opacity: 0.6;
+  padding-left: 8px;
+}
+
+/* line 64, sass/partials/_layout.scss */
+.post p {
+  margin-bottom: 20px;
+}
+
+/* line 67, sass/partials/_layout.scss */
+.post-title {
+  color: #2f2d4b;
+  font-weight: bold;
+  padding-top: 60px;
+  border-top: 1px solid #e0e3e5;
+  margin: 0  0 20px;
+}
+
+/* line 75, sass/partials/_layout.scss */
+.first-post .post-title {
+  padding-top: 0;
+  border-top: none;
+}
+
+/* line 82, sass/partials/_layout.scss */
+.project-card_info {
+  padding: 10%;
+}
+
+/* line 87, sass/partials/_layout.scss */
+.project-overview {
+  width: 86%;
+  padding: 7%;
+}
+
+/* line 91, sass/partials/_layout.scss */
+.project-intro {
+  width: 86%;
+  padding-left: 7%;
+  padding-right: 7%;
+}
+
+/* line 96, sass/partials/_layout.scss */
+.project-hero {
+  width: 86%;
+  padding: 5% 7%;
+}
+
+/* line 100, sass/partials/_layout.scss */
+.project-info {
+  max-width: 40em;
+  margin: 0 auto;
+}
+
+/* line 104, sass/partials/_layout.scss */
+.tm-project-footer {
+  width: 100%;
+  padding: 3rem 0;
+}
+
+/* line 108, sass/partials/_layout.scss */
+.project-copy {
+  max-width: 900px;
+  font-family: Vollkorn, serif;
+  font-size: 22px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+/* line 114, sass/partials/_layout.scss */
+.project-section {
+  margin: 7% 0;
+}
+
+/* line 2, sass/partials/_overlay-menu.scss */
+.tm-menu_container {
+  position: fixed;
+  top: 24px;
+  right: 24px;
+  height: 20px;
+  width: 32px;
+  padding: 20px;
+  cursor: pointer;
+  z-index: 100;
+  transition: all .3s ease;
+}
+
+/* line 13, sass/partials/_overlay-menu.scss */
+.tm-menu_container-active .tm-menu_icon-top {
+  transform: translateY(8px) translateX(0) rotate(45deg);
+  background: #DBDBDB !important;
+}
+
+/* line 17, sass/partials/_overlay-menu.scss */
+.tm-menu_container-active .tm-menu_icon-mid {
+  opacity: 0;
+  background: #DBDBDB !important;
+}
+
+/* line 21, sass/partials/_overlay-menu.scss */
+.tm-menu_container-active .tm-menu_icon-bot {
+  transform: translateY(-8px) translateX(0) rotate(-45deg);
+  background: #DBDBDB !important;
+}
+
+/* line 25, sass/partials/_overlay-menu.scss */
+.tm-menu_icon-bar {
+  background: #1E1E1E;
+  border: none;
+  height: 3px;
+  width: 32px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  transition: all .3s ease;
+  cursor: pointer;
+}
+
+/* line 36, sass/partials/_overlay-menu.scss */
+.tm-menu_icon-bar:nth-of-type(2) {
+  top: 28px;
+}
+
+/* line 39, sass/partials/_overlay-menu.scss */
+.tm-menu_icon-bar:nth-of-type(3) {
+  top: 36px;
+}
+
+/* line 43, sass/partials/_overlay-menu.scss */
+.tm-overlay {
+  position: fixed;
+  background: #1E1E1E;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  visibility: hidden;
+  transition: all .3s ease-in-out;
+  overflow: hidden;
+}
+
+/* line 55, sass/partials/_overlay-menu.scss */
+.tm-overlay.open {
+  opacity: .96;
+  visibility: visible;
+  height: 100%;
+}
+
+/* line 60, sass/partials/_overlay-menu.scss */
+.tm-overlay_menu {
+  position: relative;
+  height: 40%;
+  top: 100px;
+  right: 50px;
+  text-align: right;
+}
+
+/* line 67, sass/partials/_overlay-menu.scss */
+.tm-overlay_menu-list {
+  list-style: none;
+  padding: 0;
+  margin-right: 40px;
+  margin: 0 auto;
+  display: inline-block;
+  position: relative;
+  height: 100%;
+}
+
+/* line 76, sass/partials/_overlay-menu.scss */
+.tm-overlay_menu-list-item {
+  display: block;
+  height: 25%;
+  height: calc(100% / 4);
+  min-height: 50px;
+  position: relative;
+  opacity: 0;
+}
+
+/* line 2, sass/partials/_skin-modifiers.scss */
+.tm--text-white {
+  color: #f9f9f9;
+}
+
+/* line 5, sass/partials/_skin-modifiers.scss */
+.tm--text-off-white {
+  color: #F2F2F2;
+}
+
+/* line 8, sass/partials/_skin-modifiers.scss */
+.tm--text-light-grey {
+  color: #A0A0A0;
+}
+
+/* line 11, sass/partials/_skin-modifiers.scss */
+.tm--text-grey {
+  color: #7B7F84;
+}
+
+/* line 14, sass/partials/_skin-modifiers.scss */
+.tm--text-med-grey {
+  color: #848484;
+}
+
+/* line 17, sass/partials/_skin-modifiers.scss */
+.tm--text-dark-grey {
+  color: #353D44;
+}
+
+/* line 20, sass/partials/_skin-modifiers.scss */
+.tm--text-eerie-black {
+  color: #1e1e1e;
+}
+
+/* line 23, sass/partials/_skin-modifiers.scss */
+.tm--text-true-black {
+  color: #000000;
+}
+
+/* line 26, sass/partials/_skin-modifiers.scss */
+.tm--text-gold {
+  color: #846509;
+}
+
+/* line 31, sass/partials/_skin-modifiers.scss */
+.tm--bg-white {
+  background-color: #f9f9f9;
+}
+
+/* line 34, sass/partials/_skin-modifiers.scss */
+.tm--bg-green {
+  background-color: #56b7a5;
+}
+
+/* line 37, sass/partials/_skin-modifiers.scss */
+.tm--bg-orange {
+  background-color: #E07B69;
+}
+
+/* line 40, sass/partials/_skin-modifiers.scss */
+.tm--bg-deep-space {
+  background-color: #4C5C68;
+}
+
+/* line 43, sass/partials/_skin-modifiers.scss */
+.tm--bg-onyx {
+  background-color: #353D44;
+}
+
+/* line 46, sass/partials/_skin-modifiers.scss */
+.tm--bg-med-grey {
+  background-color: #848484;
+}
+
+/* line 49, sass/partials/_skin-modifiers.scss */
+.tm--bg-light-grey {
+  background-color: #dbdbdb;
+}
+
+/* line 52, sass/partials/_skin-modifiers.scss */
+.tm--bg-off-white {
+  background-color: #F2F2F2;
+}
+
+/* line 55, sass/partials/_skin-modifiers.scss */
+.tm--bg-eerie-black {
+  background-color: #1e1e1e;
+}
+
+/* line 58, sass/partials/_skin-modifiers.scss */
+.tm--bg-black {
+  background-color: #000000;
+}
+
+/* line 63, sass/partials/_skin-modifiers.scss */
+.tm--border-radius-2 {
+  border-radius: 2px;
+}
+
+/* line 66, sass/partials/_skin-modifiers.scss */
+.tm--border-grey-1 {
+  border: 1px solid #e0e3e5;
+}
+
+/* line 69, sass/partials/_skin-modifiers.scss */
+.tm--border-top-grey-1 {
+  border-top: 1px solid #e0e3e5;
+}
+
+/* line 72, sass/partials/_skin-modifiers.scss */
+.tm--border-top-grey-2 {
+  border-top: 2px solid #e0e3e5;
+}
+
+/* line 77, sass/partials/_skin-modifiers.scss */
+.tm-bg_img-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  overflow: hidden;
+}
+
+/* line 88, sass/partials/_skin-modifiers.scss */
+.tm-bg_img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  overflow: hidden;
+  user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+/* line 107, sass/partials/_skin-modifiers.scss */
+.tm--opacity-01 {
+  opacity: 0.1;
+}
+
+/* line 110, sass/partials/_skin-modifiers.scss */
+.tm--opacity-02 {
+  opacity: 0.2;
+}
+
+/* line 113, sass/partials/_skin-modifiers.scss */
+.tm--opacity-04 {
+  opacity: 0.4;
+}
+
+/* line 116, sass/partials/_skin-modifiers.scss */
+.tm--opacity-1 {
+  opacity: 1;
+}
+
+/* line 2, sass/partials/_typography.scss */
+h1 {
+  font-size: 1.6em;
+}
+
+/* line 5, sass/partials/_typography.scss */
+h2 {
+  font-size: 1.2em;
+}
+
+/* line 8, sass/partials/_typography.scss */
+p {
+  margin: 0;
+  line-height: 1.6em;
+}
+
+/* line 12, sass/partials/_typography.scss */
+.tm--font-serif {
+  font-family: 'PT Serif', serif;
+}
+
+/* line 15, sass/partials/_typography.scss */
+.tm--font-sans {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* line 18, sass/partials/_typography.scss */
+.tm--font-weight-normal {
+  font-weight: normal;
+}
+
+/* line 21, sass/partials/_typography.scss */
+.tm--font-weight-bold {
+  font-weight: 700;
+}
+
+/* line 24, sass/partials/_typography.scss */
+.tm--font-weight-heavy {
+  font-weight: 800;
+}
+
+/* line 29, sass/partials/_typography.scss */
+.tm--font-size-14 {
+  font-size: 14px;
+  line-height: 1.5em;
+}
+
+/* line 33, sass/partials/_typography.scss */
+.tm--font-size-16 {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+/* line 37, sass/partials/_typography.scss */
+.tm--font-size-18 {
+  font-size: 18px;
+  line-height: 1.5em;
+}
+
+/* line 41, sass/partials/_typography.scss */
+.tm--font-size-22 {
+  font-size: 22px;
+  line-height: 1.5em;
+}
+
+/* line 45, sass/partials/_typography.scss */
+.tm--font-size-24 {
+  font-size: 24px;
+  line-height: 1.7em;
+}
+
+/* line 49, sass/partials/_typography.scss */
+.tm--font-size-26 {
+  font-size: 26px;
+  line-height: 1.5em;
+}
+
+/* line 53, sass/partials/_typography.scss */
+.tm--font-size-30 {
+  font-size: 30px;
+}
+
+/* line 56, sass/partials/_typography.scss */
+.tm--font-size-36 {
+  font-size: 36px;
+  line-height: 1.4em;
+}
+
+/* line 60, sass/partials/_typography.scss */
+.tm--font-size-40 {
+  font-size: 40px;
+  line-height: 1.4em;
+}
+
+/* line 64, sass/partials/_typography.scss */
+.tm--font-size-44 {
+  font-size: 44px;
+  line-height: 1.4em;
+}
+
+/* line 68, sass/partials/_typography.scss */
+.tm--font-size-48 {
+  font-size: 48px;
+  line-height: 1em;
+}
+
+/* line 72, sass/partials/_typography.scss */
+.tm--font-size-72 {
+  font-size: 72px;
+  line-height: 1em;
+}
+
+/* line 76, sass/partials/_typography.scss */
+.tm--font-size-108 {
+  font-size: 108px;
+  line-height: 1em;
+}
+
+/* line 80, sass/partials/_typography.scss */
+.tm--font-size-128 {
+  font-size: 128px;
+  line-height: 1em;
+}
+
+/* line 84, sass/partials/_typography.scss */
+.tm--font-size-168 {
+  font-size: 168px;
+  line-height: 1em;
+}
+
+/* line 88, sass/partials/_typography.scss */
+.tm--font-size-188 {
+  font-size: 188px;
+  line-height: .9em;
+}
+
+/* line 92, sass/partials/_typography.scss */
+.tm--line-height-1 {
+  line-height: 1em;
+}
+
+/*TYPE MODS*/
+/* line 97, sass/partials/_typography.scss */
+.tm--letter-spacing-05 {
+  letter-spacing: 0.5px;
+}
+
+/* line 100, sass/partials/_typography.scss */
+.tm--letter-spacing-1 {
+  letter-spacing: 1px;
+}
+
+/* line 103, sass/partials/_typography.scss */
+.tm--letter-spacing-3 {
+  letter-spacing: 3px;
+}
+
+/* line 106, sass/partials/_typography.scss */
+.tm--letter-spacing-10 {
+  letter-spacing: 10px;
+}
+
+/* line 109, sass/partials/_typography.scss */
+.tm--main-headline {
+  transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  /* Firefox 4 */
+  -webkit-transition: all 0.2s ease;
+  /* Safari and Chrome */
+  -o-transition: all 0.2s ease;
+  /* Opera */
+  -ms-transition: all 0.2s ease;
+  /* Explorer 10 */
+}
+
+/* line 116, sass/partials/_typography.scss */
+.tm-nav-list_link:after {
+  content: "/";
+  padding: 0 .5em 0 .5em;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+/* line 121, sass/partials/_typography.scss */
+.tm-nav-list_link.last:after {
+  color: transparent;
+}
+
+/*TEXT ALIGNMENT*/
+/* line 126, sass/partials/_typography.scss */
+.tm--text-center {
+  text-align: center;
+}
+
+/* line 129, sass/partials/_typography.scss */
+.tm--text-right {
+  text-align: right;
+}
+
+/* line 132, sass/partials/_typography.scss */
+.tm--blackletter-align {
+  margin-left: -3px;
+}
+
+/* line 2, sass/partials/_helpers.scss */
+.tm--center-element {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 6, sass/partials/_helpers.scss */
+.tm--margin-bottom-0 {
+  margin-bottom: 0px;
+}
+
+/* line 9, sass/partials/_helpers.scss */
+.tm--margin-bottom-1 {
+  margin-bottom: 5px;
+}
+
+/* line 12, sass/partials/_helpers.scss */
+.tm--margin-bottom-2 {
+  margin-bottom: 10px;
+}
+
+/* line 15, sass/partials/_helpers.scss */
+.tm--margin-bottom-4 {
+  margin-bottom: 20px;
+}
+
+/* line 18, sass/partials/_helpers.scss */
+.tm--margin-bottom-8 {
+  margin-bottom: 40px;
+}
+
+/* line 21, sass/partials/_helpers.scss */
+.tm--margin-right-4 {
+  margin-right: 20px;
+}
+
+/* line 24, sass/partials/_helpers.scss */
+.tm--margin-right-6 {
+  margin-right: 30px;
+}
+
+/* line 27, sass/partials/_helpers.scss */
+.tm--margin-top-2 {
+  margin-top: 10px;
+}
+
+/* line 30, sass/partials/_helpers.scss */
+.tm--margin-top-4 {
+  margin-top: 20px;
+}
+
+/* line 33, sass/partials/_helpers.scss */
+.tm--margin-top-8 {
+  margin-top: 40px;
+}
+
+/* line 36, sass/partials/_helpers.scss */
+.tm--margin-top-10 {
+  margin-top: 60px;
+}
+
+/* line 39, sass/partials/_helpers.scss */
+.tm--margin-left-8 {
+  margin-left: 40px;
+}
+
+/* line 42, sass/partials/_helpers.scss */
+.tm--padding-7-percent {
+  padding: 7%;
+}
+
+/* line 45, sass/partials/_helpers.scss */
+.tm--padding-top-3 {
+  padding-top: 15px;
+}
+
+/* line 48, sass/partials/_helpers.scss */
+.tm--padding-top-5-percent {
+  padding-top: 5%;
+}
+
+/* line 51, sass/partials/_helpers.scss */
+.tm--padding-top-7-percent {
+  padding-top: 7%;
+}
+
+/* line 54, sass/partials/_helpers.scss */
+.tm--padding-vert-7-percent {
+  padding-top: 7%;
+  padding-bottom: 7%;
+}
+
+/* line 58, sass/partials/_helpers.scss */
+.tm--padding-horiz-7-percent {
+  padding-left: 7%;
+  padding-right: 7%;
+}
+
+/* line 62, sass/partials/_helpers.scss */
+.tm--padding-bottom-0 {
+  padding-bottom: 0;
+}
+
+/* line 65, sass/partials/_helpers.scss */
+.tm--padding-bottom-4 {
+  padding-bottom: 20px;
+}
+
+/* line 68, sass/partials/_helpers.scss */
+.tm--padding-bottom-3rem {
+  padding-bottom: 3rem;
+}
+
+/* line 71, sass/partials/_helpers.scss */
+.tm--padding-30 {
+  padding: 30px;
+}
+
+/* line 74, sass/partials/_helpers.scss */
+.tm--padding-right-30 {
+  padding-right: 30px;
+}
+
+/* line 78, sass/partials/_helpers.scss */
+.tm--display-block {
+  display: block;
+}
+
+/* line 81, sass/partials/_helpers.scss */
+.tm--display-inline-block {
+  display: inline-block;
+}
+
+/* line 84, sass/partials/_helpers.scss */
+.tm--display-table-cell {
+  display: table-cell;
+}
+
+/* line 87, sass/partials/_helpers.scss */
+.tm--vertical-align-middle {
+  vertical-align: middle;
+}
+
+/* line 90, sass/partials/_helpers.scss */
+.tm--vertical-align-bot {
+  vertical-align: bottom;
+}
+
+/* line 94, sass/partials/_helpers.scss */
+.tm--float-left {
+  float: left;
+}
+
+/* line 97, sass/partials/_helpers.scss */
+.tm--float-right {
+  float: right;
+}
+
+/* line 100, sass/partials/_helpers.scss */
+.tm--float-none {
+  float: none;
+}
+
+/* line 103, sass/partials/_helpers.scss */
+.tm--clear-both {
+  clear: both;
+}
+
+/* line 108, sass/partials/_helpers.scss */
+.tm--width-half {
+  width: 50%;
+}
+
+/* line 111, sass/partials/_helpers.scss */
+.tm--max-width-half {
+  max-width: 50%;
+}
+
+/* line 114, sass/partials/_helpers.scss */
+.tm--width-1-3 {
+  width: 33.33%;
+}
+
+/* line 117, sass/partials/_helpers.scss */
+.tm--max-width-half {
+  max-width: 50%;
+}
+
+/* line 120, sass/partials/_helpers.scss */
+.tm--width-full {
+  width: 100%;
+}
+
+/* line 123, sass/partials/_helpers.scss */
+.tm--max-width-full {
+  max-width: 100%;
+}
+
+/* line 126, sass/partials/_helpers.scss */
+.tm--max-width-1280 {
+  max-width: 1280px;
+}
+
+/* line 2, sass/partials/_images.scss */
+.cover-img_container {
+  max-height: 400px;
+  overflow: hidden;
+  border-radius: 3px;
+}
+
+/* line 7, sass/partials/_images.scss */
+.img--feature {
+  max-width: 93%;
+  margin-top: 7%;
+}
+
+/* line 11, sass/partials/_images.scss */
+.img--hero {
+  max-width: 93%;
+}
+
+/* line 14, sass/partials/_images.scss */
+.img--in-section {
+  max-width: 86%;
+  margin: 0 7%;
+}
+
+/* line 18, sass/partials/_images.scss */
+.img--width-full {
+  max-width: 100%;
+  min-width: 100%;
+}
+
+/* line 22, sass/partials/_images.scss */
+.tm-cover-img {
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 27, sass/partials/_images.scss */
+.tm-cover-img--3d-tools {
+  background-image: url("http://treymckay.net/img/3d-tools-cover-big.jpg");
+}
+
+/* line 30, sass/partials/_images.scss */
+.tm-cover-img--forums {
+  background-image: url("http://treymckay.net/img/forums-cover-big.jpg");
+}
+
+/* line 33, sass/partials/_images.scss */
+.tm-cover-img--product-edit {
+  background-image: url("http://treymckay.net/img/product-edit-cover-big.jpg");
+}
+
+/* line 2, sass/partials/_links.scss */
+a, a:visited, a:hover, a:active, a:focus {
+  position: relative;
+  transition: 0.3s color ease;
+  text-decoration: none;
+  color: #A52121;
+}
+
+/* line 8, sass/partials/_links.scss */
+a:hover {
+  color: #1e1e1e;
+}
+
+/* line 13, sass/partials/_links.scss */
+a.tm--link-hover:after {
+  content: "";
+  transition: 0.2s all ease-in-out;
+  position: absolute;
+  bottom: 2px;
+  height: 1px;
+  opacity: 0;
+  width: 100%;
+  left: 0;
+  background: #1e1e1e;
+}
+
+/* line 24, sass/partials/_links.scss */
+a.tm--link-hover:hover:after {
+  opacity: .4;
+  bottom: -1px;
+}
+
+/* line 29, sass/partials/_links.scss */
+a.tm--link-light-grey, a.tm--link-light-grey:visited, a.tm--link-light-grey:active {
+  color: #dbdbdb;
+}
+
+/* line 32, sass/partials/_links.scss */
+a.tm--link-light-grey:hover, a.tm--link-light-grey:focus {
+  color: #848484;
+}
+
+/* line 37, sass/partials/_links.scss */
+a.tm--link-grey, a.tm--link-grey:visited, a.tm--link-grey:active {
+  color: #848484;
+}
+
+/* line 40, sass/partials/_links.scss */
+a.tm--link-grey:hover, a.tm--link-grey:focus {
+  color: #1e1e1e;
+}
+
+/* line 45, sass/partials/_links.scss */
+a.tm--link-active {
+  color: #1e1e1e;
+  cursor: default;
+}
+
+/* line 49, sass/partials/_links.scss */
+a.tm--link-active:after {
+  opacity: .4;
+  bottom: -1px;
+}
+
+/* line 55, sass/partials/_links.scss */
+.btn, .btn:visited {
+  border: none;
+  background-color: #1e1e1e;
+  border-radius: 3px;
+  color: #f9f9f9;
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 10px;
+  display: inline-block;
+  line-height: 1em;
+  padding: 1em 2em;
+  transition: all 0.3s ease-in-out;
+}
+
+/* line 68, sass/partials/_links.scss */
+.btn:hover, .btn:active {
+  border: none;
+  background-color: #000000;
+  border-radius: 3px;
+  color: #f9f9f9;
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 10px;
+  display: inline-block;
+  line-height: 1em;
+  padding: 1em 2em;
+}
