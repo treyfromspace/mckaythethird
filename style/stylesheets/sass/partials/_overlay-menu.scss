@@ -1,29 +1,36 @@
 // OVERLAY MENU STYLES
 .tm-menu_container {
   position: fixed;
-  top: 24px;
-  right: 24px;
+  top: 8px;
+  right: 8px;
   height: 20px;
   width: 32px;
   padding:20px;
   cursor: pointer;
   z-index: 100;
   transition: all .3s ease;
+  &:hover {
+    .tm-menu_icon-bar {
+      background: $eerie-black;
+    }
+  }
 }
-.tm-menu_container-active .tm-menu_icon-top {
-  transform: translateY(8px) translateX(0) rotate(45deg);
-  background: #DBDBDB !important;
-}
-.tm-menu_container-active .tm-menu_icon-mid {
-  opacity: 0;
-  background: #DBDBDB !important;
-}
-.tm-menu_container-active .tm-menu_icon-bot {
-  transform: translateY(-8px) translateX(0) rotate(-45deg);
-  background: #DBDBDB !important;
+.tm-menu_container-active {
+  .tm-menu_icon-top {
+    transform: translateY(8px) translateX(0) rotate(45deg);
+    background: $light-grey !important;
+  }
+  .tm-menu_icon-mid {
+    opacity: 0;
+    background: $light-grey !important;
+  }
+  .tm-menu_icon-bot {
+    transform: translateY(-8px) translateX(0) rotate(-45deg);
+    background: $light-grey !important;
+  }
 }
 .tm-menu_icon-bar {
-  background: #1E1E1E;
+  background: $medium-grey;
   border: none;
   height: 3px;
   width: 32px;
@@ -42,7 +49,7 @@
 
 .tm-overlay {
   position: fixed;
-  background: #1E1E1E;
+  background: $eerie-black;
   top: 0;
   left: 0;
   width: 100%;
@@ -53,7 +60,7 @@
   overflow: hidden;
 }
 .tm-overlay.open {
-  opacity: .96;
+  opacity: .95;
   visibility: visible;
   height: 100%;
 }
@@ -82,3 +89,11 @@
   opacity: 0;
 }
 
+// DEVICE-SIZE OVERRIDES
+
+// SMALL TO MEDIUM
+@media (min-width: 1em) and (max-width: 34em) {
+  .tm-overlay_menu {
+    height: 50%;
+  }
+}
