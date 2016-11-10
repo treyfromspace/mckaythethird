@@ -796,12 +796,10 @@ button, input, select, textarea {
 /* line 110, sass/partials/_layout.scss */
 .project-copy {
   max-width: 900px;
-  font-family: Vollkorn, serif;
   font-size: 22px;
-  color: rgba(0, 0, 0, 0.7);
 }
 
-/* line 116, sass/partials/_layout.scss */
+/* line 114, sass/partials/_layout.scss */
 .project-section {
   margin: 7% 0;
 }
