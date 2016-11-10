@@ -13,8 +13,7 @@
 }
 .tm-about-intro {
   width:86%;
-  padding:5% 7%;
-  margin-top:3rem;
+  padding:7%;
 }
 .work-timeline {
   width:86%;
@@ -79,6 +78,9 @@
 }
 
 // PROJECT CARDS
+.project-card {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+}
 .project-card_info {
   padding: 10%;
 }
