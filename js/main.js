@@ -1,5 +1,5 @@
 // FADE-OUT SUCKA
-$(document).on("click", "a", function () {
+$(document).on("click", ".tm-link", function () {
 
     // get the href attribute
     var newUrl = $(this).attr("href");
