@@ -103,6 +103,14 @@
   -ms-user-select: none;
 }
 
+/*DETAILS FOR JUMBO TEXT*/
+@media (min-width: 1px) and (max-width: 700px) {
+  .tm-bg_img {
+    display: none !important;
+    opacity: 0 !important;
+  }
+}
+
 // OPACITY MODS
 .tm--opacity-01 {
   opacity: 0.1;
