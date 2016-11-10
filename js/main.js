@@ -1,4 +1,4 @@
-// FADE-OUT SUCKA
+// Fade page out
 $(document).on("click", ".tm-link", function () {
 
     // get the href attribute
