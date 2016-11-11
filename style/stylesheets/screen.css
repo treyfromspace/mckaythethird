@@ -123,352 +123,6 @@ button, input, select, textarea {
   vertical-align: middle;
 }
 
-/* Base classes for all media */
-/* line 96, sass/partials/_base.scss */
-.tm-grid--fit > .tm-grid_cell {
-  flex: 1;
-}
-
-/* line 99, sass/partials/_base.scss */
-.tm-grid--full > .tm-grid_cell {
-  flex: 0 0 100%;
-}
-
-/* line 102, sass/partials/_base.scss */
-.tm-grid--full > .tm-grid_cell.tm-grid_cell-1of3 {
-  flex: 0 0 100% !important;
-}
-
-/* line 105, sass/partials/_base.scss */
-.tm-grid--full.tm-grid--gutters-large > .tm-grid_cell {
-  flex: 0 0 90%;
-}
-
-/* line 108, sass/partials/_base.scss */
-.tm-grid--full.tm-grid--gutters > .tm-grid_cell {
-  flex: 0 0 98%;
-}
-
-/* line 111, sass/partials/_base.scss */
-.tm-footer-grid.tm-grid--full > .tm-grid_cell {
-  flex: 0 0 100%;
-  margin: 1.25em 0;
-}
-
-/* line 115, sass/partials/_base.scss */
-.tm-grid--1of2 > .tm-grid_cell {
-  flex: 0 0 43%;
-}
-
-/* line 118, sass/partials/_base.scss */
-.tm-grid--1of3 > .tm-grid_cell {
-  flex: 0 0 33.3333%;
-}
-
-/* line 121, sass/partials/_base.scss */
-.tm-grid--1of4 > .tm-grid_cell {
-  flex: 0 0 25%;
-}
-
-/* small screens to medium */
-@media (min-width: 1em) and (max-width: 34em) {
-  /* line 127, sass/partials/_base.scss */
-  .tm--font-size--14--mob {
-    font-size: 14px;
-    line-height: 1.5em;
-  }
-
-  /* line 131, sass/partials/_base.scss */
-  .tm--font-size-18--mob {
-    font-size: 18px;
-    line-height: 1.5em;
-  }
-
-  /* line 135, sass/partials/_base.scss */
-  .tm--font-size-24--mob {
-    font-size: 24px;
-    line-height: 1.5em;
-  }
-
-  /* line 139, sass/partials/_base.scss */
-  .tm--font-size-32--mob {
-    font-size: 32px;
-    line-height: 1.5em;
-  }
-
-  /* line 143, sass/partials/_base.scss */
-  .tm--font-size-60--mob {
-    font-size: 60px;
-  }
-
-  /* line 146, sass/partials/_base.scss */
-  .tm--hide--mob {
-    display: none;
-  }
-
-  /* line 149, sass/partials/_base.scss */
-  .tm--width-full--mob {
-    max-width: 100%;
-  }
-
-  /* line 152, sass/partials/_base.scss */
-  .tm--text-center-mob {
-    text-align: center;
-  }
-
-  /* line 155, sass/partials/_base.scss */
-  .tm--text-left-mob {
-    text-align: left;
-  }
-
-  /* line 158, sass/partials/_base.scss */
-  .tm--display-block-mob {
-    display: block;
-  }
-
-  /* line 161, sass/partials/_base.scss */
-  .tm--padding-0-mob {
-    padding: 0;
-  }
-
-  /* line 164, sass/partials/_base.scss */
-  .tm--margin-bottom-2-mob {
-    margin-bottom: 10px;
-  }
-
-  /* line 167, sass/partials/_base.scss */
-  .tm--padding-top-6-mob {
-    padding-top: 30px;
-  }
-
-  /* line 170, sass/partials/_base.scss */
-  .tm--margin-top-4-mob {
-    margin-top: 20px;
-  }
-
-  /* line 173, sass/partials/_base.scss */
-  .tm--margin-bottom-0-mob {
-    margin-bottom: 0;
-  }
-
-  /* line 176, sass/partials/_base.scss */
-  .select-work, .tm-about-intro {
-    padding-top: 7%;
-  }
-
-  /* line 179, sass/partials/_base.scss */
-  .tm-about-intro {
-    margin-top: 2rem;
-  }
-
-  /* line 182, sass/partials/_base.scss */
-  .tm--font-size-24--mob {
-    font-size: 24px;
-  }
-
-  /* line 185, sass/partials/_base.scss */
-  .tm--font-size-30--mob {
-    font-size: 30px;
-  }
-
-  /* line 188, sass/partials/_base.scss */
-  .tm-project-footer {
-    width: 86%;
-    padding: 3rem 7%;
-  }
-
-  /* line 192, sass/partials/_base.scss */
-  .tm--main-headline {
-    font-size: 64px;
-    line-height: 1em;
-  }
-
-  /* line 196, sass/partials/_base.scss */
-  .tm--bg-image {
-    background-image: none !important;
-  }
-}
-/* medium screens to large */
-@media (min-width: 34em) and (max-width: 48em) {
-  /* line 203, sass/partials/_base.scss */
-  .small-tm-grid--fit > .tm-grid_cell {
-    flex: 1;
-  }
-
-  /* line 206, sass/partials/_base.scss */
-  .small-tm-grid--full > .tm-grid_cell {
-    flex: 0 0 100%;
-  }
-
-  /* line 209, sass/partials/_base.scss */
-  .small-tm-grid--1of2 > .tm-grid_cell {
-    flex: 0 0 50%;
-  }
-
-  /* line 212, sass/partials/_base.scss */
-  .small-tm-grid--1of3 > .tm-grid_cell {
-    flex: 0 0 33.3333%;
-  }
-
-  /* line 215, sass/partials/_base.scss */
-  .small-tm-grid--1of4 > .tm-grid_cell {
-    flex: 0 0 25%;
-  }
-
-  /* line 218, sass/partials/_base.scss */
-  .tm--font-size-84--tab {
-    font-size: 84px;
-  }
-
-  /* line 221, sass/partials/_base.scss */
-  .tm--hide--tab {
-    display: none;
-  }
-
-  /* line 224, sass/partials/_base.scss */
-  .tm--width-three-qtr--tab {
-    max-width: 75%;
-  }
-
-  /* line 227, sass/partials/_base.scss */
-  .tm--text-center-tab {
-    text-align: center;
-  }
-
-  /* line 230, sass/partials/_base.scss */
-  .tm--text-left-tab {
-    text-align: left;
-  }
-
-  /* line 233, sass/partials/_base.scss */
-  .select-work, .tm-about-intro {
-    padding-top: 7%;
-  }
-
-  /* line 236, sass/partials/_base.scss */
-  .tm-about-intro {
-    margin-top: 2rem;
-  }
-
-  /* line 239, sass/partials/_base.scss */
-  .tm-project-footer {
-    width: 86%;
-    padding: 3rem 7%;
-  }
-}
-/*SMALL DETAIL FOR PROJECT FOOTER SPACING*/
-@media (max-width: 1334px) {
-  /* line 247, sass/partials/_base.scss */
-  .tm-project-footer {
-    width: 86%;
-    padding: 3rem 7%;
-  }
-}
-/*DETAILS FOR JUMBO TEXT*/
-@media (min-width: 1rem) and (max-width: 34rem) {
-  /* line 254, sass/partials/_base.scss */
-  .tm--main-headline {
-    font-size: 3rem;
-    line-height: .9em;
-  }
-}
-@media (min-width: 34rem) and (max-width: 44rem) {
-  /* line 260, sass/partials/_base.scss */
-  .tm--main-headline {
-    font-size: 4rem;
-    line-height: .9em;
-  }
-}
-@media (min-width: 44rem) and (max-width: 60rem) {
-  /* line 266, sass/partials/_base.scss */
-  .tm--main-headline {
-    font-size: 5rem;
-    line-height: .9em;
-  }
-}
-@media (min-width: 60rem) and (max-width: 80rem) {
-  /* line 272, sass/partials/_base.scss */
-  .tm--main-headline {
-    font-size: 6rem;
-    line-height: .9em;
-  }
-}
-@media (min-width: 80rem) {
-  /* line 278, sass/partials/_base.scss */
-  .tm--main-headline {
-    font-size: 8rem;
-    line-height: .9em;
-  }
-}
-/* Large screens */
-@media (min-width: 48em) {
-  /* line 288, sass/partials/_base.scss */
-  .tm-footer-grid.large-tm-grid--fit > .tm-grid_cell {
-    flex: 1;
-  }
-
-  /* line 291, sass/partials/_base.scss */
-  .large-tm-grid--fit > .tm-grid_cell {
-    flex: 1 !important;
-  }
-
-  /* line 294, sass/partials/_base.scss */
-  .large-tm-grid--fit > .tm-grid_cell.tm-grid_cell-1of3 {
-    flex: none !important;
-    width: 33% !important;
-  }
-
-  /* line 298, sass/partials/_base.scss */
-  .large-tm-grid--full > .tm-grid_cell {
-    flex: 0 0 100%;
-  }
-
-  /* line 301, sass/partials/_base.scss */
-  .tm-grid--gutters-large.large-tm-grid--1of2 > .tm-grid_cell {
-    flex: 0 0 40%;
-  }
-
-  /* line 304, sass/partials/_base.scss */
-  .large-tm-grid--1of2 > .tm-grid_cell {
-    flex: 0 0 50%;
-  }
-
-  /* line 307, sass/partials/_base.scss */
-  .large-tm-grid--1of3 > .tm-grid_cell {
-    flex: 0 0 33.3333%;
-  }
-
-  /* line 310, sass/partials/_base.scss */
-  .large-tm-grid--1of4 > .tm-grid_cell {
-    flex: 0 0 25%;
-  }
-
-  /* line 313, sass/partials/_base.scss */
-  .large-tm-grid--fit > .tm-grid_cell.tm-grid--1of4 {
-    flex: 0 0 25% !important;
-  }
-
-  /* line 316, sass/partials/_base.scss */
-  .tm--centered--desk {
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  /* line 320, sass/partials/_base.scss */
-  .tm--text-align-center--desk {
-    text-align: center;
-  }
-
-  /* line 323, sass/partials/_base.scss */
-  .tm--hide--mob, .tm--hide--tab {
-    display: initial;
-  }
-
-  /* line 326, sass/partials/_base.scss */
-  .tm--padding-0-desk {
-    padding: 0;
-  }
-}
 @-webkit-keyframes fade-in {
   from {
     opacity: 0;
@@ -565,86 +219,6 @@ button, input, select, textarea {
   -webkit-animation-delay: 1s;
   -moz-animation-delay: 1s;
   animation-delay: 1s;
-}
-
-/* line 2, sass/partials/_grid.scss */
-.tm-grid {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: stretch;
-}
-
-/* line 9, sass/partials/_grid.scss */
-.tm-grid--fullscreen {
-  min-height: 100vh;
-}
-
-/* line 12, sass/partials/_grid.scss */
-.tm-grid_cell {
-  flex: 1;
-}
-
-/* line 15, sass/partials/_grid.scss */
-.tm-grid--flexCells > .tm-grid_cell {
-  display: flex;
-}
-
-/* line 18, sass/partials/_grid.scss */
-.tm-grid_cell-1of3 {
-  flex: none !important;
-  width: 33% !important;
-}
-
-/* line 24, sass/partials/_grid.scss */
-.tm-grid--gutters {
-  margin: -2% 0 0 -2%;
-}
-
-/* line 27, sass/partials/_grid.scss */
-.tm-grid--gutters > .tm-grid_cell {
-  padding: 2% 0 0 2%;
-}
-
-/* line 32, sass/partials/_grid.scss */
-.tm-grid--gutters-large > .tm-grid_cell {
-  padding: 5%;
-}
-
-/* line 35, sass/partials/_grid.scss */
-.tm-grid--gutters-large {
-  margin: -5%;
-}
-
-/* line 40, sass/partials/_grid.scss */
-.tm-grid--top {
-  align-items: flex-start;
-}
-
-/* line 43, sass/partials/_grid.scss */
-.tm-grid--bottom {
-  align-items: flex-end;
-}
-
-/* line 46, sass/partials/_grid.scss */
-.tm-grid--center {
-  align-items: center;
-}
-
-/* line 51, sass/partials/_grid.scss */
-.tm-grid_cell--top {
-  align-self: flex-start;
-}
-
-/* line 54, sass/partials/_grid.scss */
-.tm-grid_cell--bottom {
-  align-self: flex-end;
-}
-
-/* line 57, sass/partials/_grid.scss */
-.tm-grid_cell--center {
-  align-self: center;
 }
 
 /* line 2, sass/partials/_layout.scss */
@@ -1580,7 +1154,7 @@ a, a:visited, a:hover, a:active, a:focus {
 }
 
 /* line 8, sass/partials/_links.scss */
-a:hover {
+.no-touch a:hover {
   color: #1e1e1e;
 }
 
@@ -1598,7 +1172,7 @@ a.tm--link-hover:after {
 }
 
 /* line 24, sass/partials/_links.scss */
-a.tm--link-hover:hover:after {
+.no-touch a.tm--link-hover:hover:after {
   opacity: .4;
   bottom: -1px;
 }
@@ -1652,7 +1226,434 @@ a.tm--link-active:after {
 }
 
 /* line 69, sass/partials/_links.scss */
-.btn:hover, .btn:active {
+.no-touch .btn:hover, .btn:active {
   opacity: .8;
   color: #f9f9f9;
+}
+
+/* line 2, sass/partials/_grid.scss */
+.tm-grid {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+
+/* line 9, sass/partials/_grid.scss */
+.tm-grid--fullscreen {
+  min-height: 100vh;
+}
+
+/* line 12, sass/partials/_grid.scss */
+.tm-grid_cell {
+  flex: 1;
+}
+
+/* line 15, sass/partials/_grid.scss */
+.tm-grid--flexCells > .tm-grid_cell {
+  display: flex;
+}
+
+/* line 18, sass/partials/_grid.scss */
+.tm-grid_cell-1of3 {
+  flex: none !important;
+  width: 33% !important;
+}
+
+/* line 24, sass/partials/_grid.scss */
+.tm-grid--gutters {
+  margin: -2% 0 0 -2%;
+}
+
+/* line 27, sass/partials/_grid.scss */
+.tm-grid--gutters > .tm-grid_cell {
+  padding: 2% 0 0 2%;
+}
+
+/* line 32, sass/partials/_grid.scss */
+.tm-grid--gutters-large > .tm-grid_cell {
+  padding: 5%;
+}
+
+/* line 35, sass/partials/_grid.scss */
+.tm-grid--gutters-large {
+  margin: -5%;
+}
+
+/* line 40, sass/partials/_grid.scss */
+.tm-grid--top {
+  align-items: flex-start;
+}
+
+/* line 43, sass/partials/_grid.scss */
+.tm-grid--bottom {
+  align-items: flex-end;
+}
+
+/* line 46, sass/partials/_grid.scss */
+.tm-grid--center {
+  align-items: center;
+}
+
+/* line 51, sass/partials/_grid.scss */
+.tm-grid_cell--top {
+  align-self: flex-start;
+}
+
+/* line 54, sass/partials/_grid.scss */
+.tm-grid_cell--bottom {
+  align-self: flex-end;
+}
+
+/* line 57, sass/partials/_grid.scss */
+.tm-grid_cell--center {
+  align-self: center;
+}
+
+/* Base classes for all media */
+/* line 62, sass/partials/_grid.scss */
+.tm-grid--fit > .tm-grid_cell {
+  flex: 1;
+}
+
+/* line 65, sass/partials/_grid.scss */
+.tm-grid--full > .tm-grid_cell {
+  flex: 0 0 100%;
+}
+
+/* line 68, sass/partials/_grid.scss */
+.tm-grid--full > .tm-grid_cell.tm-grid_cell-1of3 {
+  flex: 0 0 100% !important;
+}
+
+/* line 71, sass/partials/_grid.scss */
+.tm-grid--full.tm-grid--gutters-large > .tm-grid_cell {
+  flex: 0 0 90%;
+}
+
+/* line 74, sass/partials/_grid.scss */
+.tm-grid--full.tm-grid--gutters > .tm-grid_cell {
+  flex: 0 0 98%;
+}
+
+/* line 77, sass/partials/_grid.scss */
+.tm-footer-grid.tm-grid--full > .tm-grid_cell {
+  flex: 0 0 100%;
+  margin: 1.25em 0;
+}
+
+/* line 81, sass/partials/_grid.scss */
+.tm-grid--1of2 > .tm-grid_cell {
+  flex: 0 0 43%;
+}
+
+/* line 84, sass/partials/_grid.scss */
+.tm-grid--1of3 > .tm-grid_cell {
+  flex: 0 0 33.3333%;
+}
+
+/* line 87, sass/partials/_grid.scss */
+.tm-grid--1of4 > .tm-grid_cell {
+  flex: 0 0 25%;
+}
+
+/* small screens to medium */
+@media (min-width: 1em) and (max-width: 34em) {
+  /* line 93, sass/partials/_grid.scss */
+  .tm--font-size--14--mob {
+    font-size: 14px;
+    line-height: 1.5em;
+  }
+
+  /* line 97, sass/partials/_grid.scss */
+  .tm--font-size-18--mob {
+    font-size: 18px;
+    line-height: 1.5em;
+  }
+
+  /* line 101, sass/partials/_grid.scss */
+  .tm--font-size-24--mob {
+    font-size: 24px;
+    line-height: 1.5em;
+  }
+
+  /* line 105, sass/partials/_grid.scss */
+  .tm--font-size-32--mob {
+    font-size: 32px;
+    line-height: 1.5em;
+  }
+
+  /* line 109, sass/partials/_grid.scss */
+  .tm--font-size-60--mob {
+    font-size: 60px;
+  }
+
+  /* line 112, sass/partials/_grid.scss */
+  .tm--hide--mob {
+    display: none;
+  }
+
+  /* line 115, sass/partials/_grid.scss */
+  .tm--width-full--mob {
+    max-width: 100%;
+  }
+
+  /* line 118, sass/partials/_grid.scss */
+  .tm--text-center-mob {
+    text-align: center;
+  }
+
+  /* line 121, sass/partials/_grid.scss */
+  .tm--text-left-mob {
+    text-align: left;
+  }
+
+  /* line 124, sass/partials/_grid.scss */
+  .tm--display-block-mob {
+    display: block;
+  }
+
+  /* line 127, sass/partials/_grid.scss */
+  .tm--padding-0-mob {
+    padding: 0;
+  }
+
+  /* line 130, sass/partials/_grid.scss */
+  .tm--margin-bottom-2-mob {
+    margin-bottom: 10px;
+  }
+
+  /* line 133, sass/partials/_grid.scss */
+  .tm--padding-top-6-mob {
+    padding-top: 30px;
+  }
+
+  /* line 136, sass/partials/_grid.scss */
+  .tm--margin-top-4-mob {
+    margin-top: 20px;
+  }
+
+  /* line 139, sass/partials/_grid.scss */
+  .tm--margin-bottom-0-mob {
+    margin-bottom: 0;
+  }
+
+  /* line 142, sass/partials/_grid.scss */
+  .select-work, .tm-about-intro {
+    padding-top: 7%;
+  }
+
+  /* line 145, sass/partials/_grid.scss */
+  .tm-about-intro {
+    margin-top: 2rem;
+  }
+
+  /* line 148, sass/partials/_grid.scss */
+  .tm--font-size-24--mob {
+    font-size: 24px;
+  }
+
+  /* line 151, sass/partials/_grid.scss */
+  .tm--font-size-30--mob {
+    font-size: 30px;
+  }
+
+  /* line 154, sass/partials/_grid.scss */
+  .tm-project-footer {
+    width: 86%;
+    padding: 3rem 7%;
+  }
+
+  /* line 158, sass/partials/_grid.scss */
+  .tm--main-headline {
+    font-size: 64px;
+    line-height: 1em;
+  }
+
+  /* line 162, sass/partials/_grid.scss */
+  .tm--bg-image {
+    background-image: none !important;
+  }
+}
+/* medium screens to large */
+@media (min-width: 34em) and (max-width: 48em) {
+  /* line 169, sass/partials/_grid.scss */
+  .small-tm-grid--fit > .tm-grid_cell {
+    flex: 1;
+  }
+
+  /* line 172, sass/partials/_grid.scss */
+  .small-tm-grid--full > .tm-grid_cell {
+    flex: 0 0 100%;
+  }
+
+  /* line 175, sass/partials/_grid.scss */
+  .small-tm-grid--1of2 > .tm-grid_cell {
+    flex: 0 0 50%;
+  }
+
+  /* line 178, sass/partials/_grid.scss */
+  .small-tm-grid--1of3 > .tm-grid_cell {
+    flex: 0 0 33.3333%;
+  }
+
+  /* line 181, sass/partials/_grid.scss */
+  .small-tm-grid--1of4 > .tm-grid_cell {
+    flex: 0 0 25%;
+  }
+
+  /* line 184, sass/partials/_grid.scss */
+  .tm--font-size-84--tab {
+    font-size: 84px;
+  }
+
+  /* line 187, sass/partials/_grid.scss */
+  .tm--hide--tab {
+    display: none;
+  }
+
+  /* line 190, sass/partials/_grid.scss */
+  .tm--width-three-qtr--tab {
+    max-width: 75%;
+  }
+
+  /* line 193, sass/partials/_grid.scss */
+  .tm--text-center-tab {
+    text-align: center;
+  }
+
+  /* line 196, sass/partials/_grid.scss */
+  .tm--text-left-tab {
+    text-align: left;
+  }
+
+  /* line 199, sass/partials/_grid.scss */
+  .select-work, .tm-about-intro {
+    padding-top: 7%;
+  }
+
+  /* line 202, sass/partials/_grid.scss */
+  .tm-about-intro {
+    margin-top: 2rem;
+  }
+
+  /* line 205, sass/partials/_grid.scss */
+  .tm-project-footer {
+    width: 86%;
+    padding: 3rem 7%;
+  }
+}
+/*SMALL DETAIL FOR PROJECT FOOTER SPACING*/
+@media (max-width: 1334px) {
+  /* line 213, sass/partials/_grid.scss */
+  .tm-project-footer {
+    width: 86%;
+    padding: 3rem 7%;
+  }
+}
+/*DETAILS FOR JUMBO TEXT*/
+@media (min-width: 1rem) and (max-width: 34rem) {
+  /* line 220, sass/partials/_grid.scss */
+  .tm--main-headline {
+    font-size: 3rem;
+    line-height: .9em;
+  }
+}
+@media (min-width: 34rem) and (max-width: 44rem) {
+  /* line 226, sass/partials/_grid.scss */
+  .tm--main-headline {
+    font-size: 4rem;
+    line-height: .9em;
+  }
+}
+@media (min-width: 44rem) and (max-width: 60rem) {
+  /* line 232, sass/partials/_grid.scss */
+  .tm--main-headline {
+    font-size: 5rem;
+    line-height: .9em;
+  }
+}
+@media (min-width: 60rem) and (max-width: 80rem) {
+  /* line 238, sass/partials/_grid.scss */
+  .tm--main-headline {
+    font-size: 6rem;
+    line-height: .9em;
+  }
+}
+@media (min-width: 80rem) {
+  /* line 244, sass/partials/_grid.scss */
+  .tm--main-headline {
+    font-size: 8rem;
+    line-height: .9em;
+  }
+}
+/* Large screens */
+@media (min-width: 48em) {
+  /* line 254, sass/partials/_grid.scss */
+  .tm-footer-grid.large-tm-grid--fit > .tm-grid_cell {
+    flex: 1;
+  }
+
+  /* line 257, sass/partials/_grid.scss */
+  .large-tm-grid--fit > .tm-grid_cell {
+    flex: 1 !important;
+  }
+
+  /* line 260, sass/partials/_grid.scss */
+  .large-tm-grid--fit > .tm-grid_cell.tm-grid_cell-1of3 {
+    flex: none !important;
+    width: 33% !important;
+  }
+
+  /* line 264, sass/partials/_grid.scss */
+  .large-tm-grid--full > .tm-grid_cell {
+    flex: 0 0 100%;
+  }
+
+  /* line 267, sass/partials/_grid.scss */
+  .tm-grid--gutters-large.large-tm-grid--1of2 > .tm-grid_cell {
+    flex: 0 0 40%;
+  }
+
+  /* line 270, sass/partials/_grid.scss */
+  .large-tm-grid--1of2 > .tm-grid_cell {
+    flex: 0 0 50%;
+  }
+
+  /* line 273, sass/partials/_grid.scss */
+  .large-tm-grid--1of3 > .tm-grid_cell {
+    flex: 0 0 33.3333%;
+  }
+
+  /* line 276, sass/partials/_grid.scss */
+  .large-tm-grid--1of4 > .tm-grid_cell {
+    flex: 0 0 25%;
+  }
+
+  /* line 279, sass/partials/_grid.scss */
+  .large-tm-grid--fit > .tm-grid_cell.tm-grid--1of4 {
+    flex: 0 0 25% !important;
+  }
+
+  /* line 282, sass/partials/_grid.scss */
+  .tm--centered--desk {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* line 286, sass/partials/_grid.scss */
+  .tm--text-align-center--desk {
+    text-align: center;
+  }
+
+  /* line 289, sass/partials/_grid.scss */
+  .tm--hide--mob, .tm--hide--tab {
+    display: initial;
+  }
+
+  /* line 292, sass/partials/_grid.scss */
+  .tm--padding-0-desk {
+    padding: 0;
+  }
 }
