@@ -63,6 +63,9 @@
 .tm--border-radius-2 {
   border-radius: 2px;
 }
+.tm--border-radius-3 {
+  border-radius: 3px;
+}
 .tm--border-grey-1 {
   border: 1px solid $rule-color;
 }
@@ -123,4 +126,29 @@
 }
 .tm--opacity-1 {
   opacity: 1;
+}
+.no-touch .tm--opacity-hover-08 {
+  &:hover,&:focus {
+    opacity: 0.8; 
+  }
+}
+.no-touch .tm--opacity-hover-06 {
+  &:hover,&:focus {
+    opacity: 0.6; 
+  }
+}
+.no-touch .tm--opacity-hover-04 {
+  &:hover,&:focus {
+    opacity: 0.4; 
+  }
+}
+.no-touch .tm--opacity-hover-02 {
+  &:hover,&:focus {
+    opacity: 0.2; 
+  }
+}
+
+// MISC
+.tm--overflow-hidden {
+  overflow: hidden;
 }
