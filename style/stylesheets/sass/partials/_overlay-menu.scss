@@ -15,6 +15,7 @@
     }
   }
 }
+
 .tm-menu_container-active {
   .tm-menu_icon-top {
     transform: translateY(8px) translateX(0) rotate(45deg);
@@ -95,5 +96,8 @@
 @media (min-width: 1em) and (max-width: 34em) {
   .tm-overlay_menu {
     height: 50%;
+  }
+  .tm-menu_container {
+    top: 9px;
   }
 }
