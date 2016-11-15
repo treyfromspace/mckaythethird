@@ -30,10 +30,17 @@
 
 // GUTTERS GRID LARGE
 .tm-grid--gutters-large > .tm-grid_cell {
-  padding: 5%;
+  padding: 4% 0 0 4%;
 }
 .tm-grid--gutters-large {
-  margin: -5%;
+  margin: -4% 0 0 -4%;
+}
+// GUTTERS GRID FIXED
+.tm-grid--gutters-fixed > .tm-grid_cell {
+  padding: 20px;
+}
+.tm-grid--gutters-fixed {
+  margin: -20px;
 }
 
 // ROW ALIGN
@@ -69,7 +76,7 @@
   flex: 0 0 100% !important;
 }
 .tm-grid--full.tm-grid--gutters-large > .tm-grid_cell {
-  flex: 0 0 90%;
+  flex: 0 0 96%;
 }
 .tm-grid--full.tm-grid--gutters > .tm-grid_cell {
   flex: 0 0 98%;
