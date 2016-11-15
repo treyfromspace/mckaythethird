@@ -495,12 +495,24 @@ button, input, select, textarea {
 @media (min-width: 1em) and (max-width: 34em) {
   /* line 97, sass/partials/_overlay-menu.scss */
   .tm-overlay_menu {
-    height: 50%;
+    height: 60%;
   }
 
   /* line 100, sass/partials/_overlay-menu.scss */
   .tm-menu_container {
     top: 9px;
+  }
+}
+@media (min-width: 34em) and (max-width: 48em) {
+  /* line 107, sass/partials/_overlay-menu.scss */
+  .tm-overlay_menu {
+    height: 50%;
+  }
+}
+@media (min-width: 48em) {
+  /* line 113, sass/partials/_overlay-menu.scss */
+  .tm-overlay_menu {
+    height: 40%;
   }
 }
 /* line 2, sass/partials/_skin-modifiers.scss */

@@ -95,9 +95,23 @@
 // SMALL TO MEDIUM
 @media (min-width: 1em) and (max-width: 34em) {
   .tm-overlay_menu {
-    height: 50%;
+    height: 60%;
   }
   .tm-menu_container {
     top: 9px;
   }
 }
+
+// MEDIUM SCREENS
+@media (min-width: 34em) and (max-width: 48em) {
+  .tm-overlay_menu {
+    height: 50%;
+  }
+}
+// MEDIUM SCREENS
+@media (min-width: 48em) {
+  .tm-overlay_menu {
+    height: 40%;
+  }
+}
+
