@@ -41,6 +41,14 @@ a.tm--link-grey:hover,a.tm--link-grey:focus {
   color: $eerie-black;
 }
 
+// BLACK LINKS (RESUME)
+a.tm--link-black,a.tm--link-black:visited,a.tm--link-black:active {
+  color: $eerie-black;
+}
+a.tm--link-black:hover,a.tm--link-black:focus {
+  color: $eerie-black;
+}
+
 // ACTIVE LINK
 a.tm--link-active {
   color: $eerie-black;
