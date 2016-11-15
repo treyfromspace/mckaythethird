@@ -1161,6 +1161,11 @@ p {
   max-width: 1620px;
 }
 
+/* line 149, sass/partials/_helpers.scss */
+.tm--height-full {
+  height: 100%;
+}
+
 /* line 2, sass/partials/_images.scss */
 .cover-img_container {
   max-height: 400px;
@@ -1198,20 +1203,39 @@ p {
   background-size: cover;
   min-height: 200px;
 }
-
-/* line 28, sass/partials/_images.scss */
-.tm-cover-img--3d-tools {
-  background-image: url("http://treymckay.net/img/3d-tools-cover-big.jpg");
+/* line 27, sass/partials/_images.scss */
+.no-touch .tm-cover-img:hover {
+  cursor: pointer;
 }
 
 /* line 31, sass/partials/_images.scss */
-.tm-cover-img--forums {
-  background-image: url("http://treymckay.net/img/forums-cover-big.jpg");
+.tm-cover-img--3d-tools {
+  background-image: url("http://mckaythethird.com/img/3d-tools-cover-no-color-2.jpg");
+  transition: all 0.3s ease;
+}
+/* line 34, sass/partials/_images.scss */
+.no-touch .tm-cover-img--3d-tools:hover {
+  background-image: url("http://mckaythethird.com/img/3d-tools-cover-big.jpg");
 }
 
-/* line 34, sass/partials/_images.scss */
+/* line 38, sass/partials/_images.scss */
+.tm-cover-img--forums {
+  background-image: url("http://mckaythethird.com/img/forums-cover-no-color.jpg");
+  transition: all 0.3s ease;
+}
+/* line 41, sass/partials/_images.scss */
+.no-touch .tm-cover-img--forums:hover {
+  background-image: url("http://mckaythethird.com/img/forums-cover-big.jpg");
+}
+
+/* line 45, sass/partials/_images.scss */
 .tm-cover-img--product-edit {
-  background-image: url("http://treymckay.net/img/product-edit-cover-big.jpg");
+  background-image: url("http://mckaythethird.com/img/product-edit-cover-no-color.jpg");
+  transition: all 0.3s ease;
+}
+/* line 48, sass/partials/_images.scss */
+.no-touch .tm-cover-img--product-edit:hover {
+  background-image: url("http://mckaythethird.com/img/product-edit-cover-big.jpg");
 }
 
 /* line 2, sass/partials/_links.scss */
