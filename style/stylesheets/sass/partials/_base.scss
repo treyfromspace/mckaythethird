@@ -32,6 +32,9 @@ ol, ul { list-style: none; }
 q, blockquote {
   quotes: none;
 }
+p, div {
+  position: relative;
+}
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
