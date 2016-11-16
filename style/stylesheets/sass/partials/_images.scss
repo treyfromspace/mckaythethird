@@ -29,23 +29,11 @@
   }
 }
 .tm-cover-img--3d-tools {
-  background-image: url('http://mckaythethird.com/img/3d-tools-cover-no-color-2.jpg');
-  transition: all 0.3s ease;
-  .no-touch &:hover {
-    background-image: url('http://mckaythethird.com/img/3d-tools-cover-big.jpg');
-  }
+  background-image: url('http://mckaythethird.com/img/3d-tools-cover-big.jpg');
 }
 .tm-cover-img--forums {
-  background-image: url('http://mckaythethird.com/img/forums-cover-no-color.jpg');
-  transition: all 0.3s ease;
-  .no-touch &:hover {
-    background-image: url('http://mckaythethird.com/img/forums-cover-big.jpg');
-  }
+  background-image: url('http://mckaythethird.com/img/forums-cover-big.jpg');
 }
 .tm-cover-img--product-edit {
-  background-image: url('http://mckaythethird.com/img/product-edit-cover-no-color.jpg');
-  transition: all 0.3s ease;
-  .no-touch &:hover {
-    background-image: url('http://mckaythethird.com/img/product-edit-cover-big.jpg');
-  }
+  background-image: url('http://mckaythethird.com/img/product-edit-cover-big.jpg');
 }

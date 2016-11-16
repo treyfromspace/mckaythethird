@@ -124,27 +124,40 @@
 .tm--opacity-04 {
   opacity: 0.4;
 }
+.tm--opacity-06 {
+  opacity: 0.6;
+}
 .tm--opacity-1 {
   opacity: 1;
 }
-.no-touch .tm--opacity-hover-08 {
-  &:hover,&:focus {
-    opacity: 0.8; 
+.tm--opacity-hover-08 {
+  transition: all 0.3s ease;
+  .no-touch &:hover,&:focus {
+    opacity: 0.8;
   }
 }
-.no-touch .tm--opacity-hover-06 {
-  &:hover,&:focus {
-    opacity: 0.6; 
+.tm--opacity-hover-06 {
+  transition: all 0.3s ease;
+  .no-touch &:hover,&:focus {
+    opacity: 0.6;
   }
 }
-.no-touch .tm--opacity-hover-04 {
-  &:hover,&:focus {
-    opacity: 0.4; 
+.tm--opacity-hover-04 {
+  transition: all 0.3s ease;
+  .no-touch &:hover,&:focus {
+    opacity: 0.4;
   }
 }
-.no-touch .tm--opacity-hover-02 {
-  &:hover,&:focus {
-    opacity: 0.2; 
+.tm--opacity-hover-02 {
+  transition: all 0.3s ease;
+  .no-touch &:hover,&:focus {
+    opacity: 0.2;
+  }
+}
+.tm--opacity-hover-0 {
+  transition: all 0.3s ease;
+  .no-touch &:hover,&:focus {
+    opacity: 0;
   }
 }
 

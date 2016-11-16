@@ -1,7 +1,7 @@
 // LINK STYLES
 a,a:visited,a:hover,a:active,a:focus {
   position:relative;
-  transition:0.3s color ease;
+  transition: all 0.3s ease;
   text-decoration:none;
   color: $red;
 }

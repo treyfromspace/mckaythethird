@@ -710,31 +710,61 @@ button, input, select, textarea {
 }
 
 /* line 127, sass/partials/_skin-modifiers.scss */
+.tm--opacity-06 {
+  opacity: 0.6;
+}
+
+/* line 130, sass/partials/_skin-modifiers.scss */
 .tm--opacity-1 {
   opacity: 1;
 }
 
-/* line 131, sass/partials/_skin-modifiers.scss */
-.no-touch .tm--opacity-hover-08:hover, .no-touch .tm--opacity-hover-08:focus {
+/* line 133, sass/partials/_skin-modifiers.scss */
+.tm--opacity-hover-08 {
+  transition: all 0.3s ease;
+}
+/* line 135, sass/partials/_skin-modifiers.scss */
+.no-touch .tm--opacity-hover-08:hover, .tm--opacity-hover-08:focus {
   opacity: 0.8;
 }
 
-/* line 136, sass/partials/_skin-modifiers.scss */
-.no-touch .tm--opacity-hover-06:hover, .no-touch .tm--opacity-hover-06:focus {
+/* line 139, sass/partials/_skin-modifiers.scss */
+.tm--opacity-hover-06 {
+  transition: all 0.3s ease;
+}
+/* line 141, sass/partials/_skin-modifiers.scss */
+.no-touch .tm--opacity-hover-06:hover, .tm--opacity-hover-06:focus {
   opacity: 0.6;
 }
 
-/* line 141, sass/partials/_skin-modifiers.scss */
-.no-touch .tm--opacity-hover-04:hover, .no-touch .tm--opacity-hover-04:focus {
+/* line 145, sass/partials/_skin-modifiers.scss */
+.tm--opacity-hover-04 {
+  transition: all 0.3s ease;
+}
+/* line 147, sass/partials/_skin-modifiers.scss */
+.no-touch .tm--opacity-hover-04:hover, .tm--opacity-hover-04:focus {
   opacity: 0.4;
 }
 
-/* line 146, sass/partials/_skin-modifiers.scss */
-.no-touch .tm--opacity-hover-02:hover, .no-touch .tm--opacity-hover-02:focus {
+/* line 151, sass/partials/_skin-modifiers.scss */
+.tm--opacity-hover-02 {
+  transition: all 0.3s ease;
+}
+/* line 153, sass/partials/_skin-modifiers.scss */
+.no-touch .tm--opacity-hover-02:hover, .tm--opacity-hover-02:focus {
   opacity: 0.2;
 }
 
-/* line 152, sass/partials/_skin-modifiers.scss */
+/* line 157, sass/partials/_skin-modifiers.scss */
+.tm--opacity-hover-0 {
+  transition: all 0.3s ease;
+}
+/* line 159, sass/partials/_skin-modifiers.scss */
+.no-touch .tm--opacity-hover-0:hover, .tm--opacity-hover-0:focus {
+  opacity: 0;
+}
+
+/* line 165, sass/partials/_skin-modifiers.scss */
 .tm--overflow-hidden {
   overflow: hidden;
 }
@@ -1234,38 +1264,23 @@ p {
 
 /* line 31, sass/partials/_images.scss */
 .tm-cover-img--3d-tools {
-  background-image: url("http://mckaythethird.com/img/3d-tools-cover-no-color-2.jpg");
-  transition: all 0.3s ease;
-}
-/* line 34, sass/partials/_images.scss */
-.no-touch .tm-cover-img--3d-tools:hover {
   background-image: url("http://mckaythethird.com/img/3d-tools-cover-big.jpg");
 }
 
-/* line 38, sass/partials/_images.scss */
+/* line 34, sass/partials/_images.scss */
 .tm-cover-img--forums {
-  background-image: url("http://mckaythethird.com/img/forums-cover-no-color.jpg");
-  transition: all 0.3s ease;
-}
-/* line 41, sass/partials/_images.scss */
-.no-touch .tm-cover-img--forums:hover {
   background-image: url("http://mckaythethird.com/img/forums-cover-big.jpg");
 }
 
-/* line 45, sass/partials/_images.scss */
+/* line 37, sass/partials/_images.scss */
 .tm-cover-img--product-edit {
-  background-image: url("http://mckaythethird.com/img/product-edit-cover-no-color.jpg");
-  transition: all 0.3s ease;
-}
-/* line 48, sass/partials/_images.scss */
-.no-touch .tm-cover-img--product-edit:hover {
   background-image: url("http://mckaythethird.com/img/product-edit-cover-big.jpg");
 }
 
 /* line 2, sass/partials/_links.scss */
 a, a:visited, a:hover, a:active, a:focus {
   position: relative;
-  transition: 0.3s color ease;
+  transition: all 0.3s ease;
   text-decoration: none;
   color: #A52121;
 }
