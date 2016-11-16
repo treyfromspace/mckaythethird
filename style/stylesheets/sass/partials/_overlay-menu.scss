@@ -111,7 +111,8 @@
 // MEDIUM SCREENS
 @media (min-width: 48em) {
   .tm-overlay_menu {
-    height: 40%;
+    height: 45%;
+    min-height: 240px;
   }
 }
 

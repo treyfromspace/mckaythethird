@@ -29,7 +29,7 @@ a.tm--link-hover:after {
 a.tm--link-light-grey,a.tm--link-light-grey:visited,a.tm--link-light-grey:active {
   color: $light-grey;
 }
-a.tm--link-light-grey:hover,a.tm--link-light-grey:focus {
+.no-touch a.tm--link-light-grey:hover,a.tm--link-light-grey:focus {
   color: $medium-grey;
 }
 
@@ -77,4 +77,23 @@ a.tm--link-active:after {
 .no-touch .btn:hover, .btn:active {
   opacity: .8;
   color: $white;
+}
+
+// WHITE BUTTON
+.btn--white, .btn--white:visited {
+  border: none;
+  background-color: $off-white;
+  border-radius: 3px;
+  color: $eerie-black;
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 10px;
+  display: inline-block;
+  line-height: 1em;
+  padding: 1em 2em;
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+.no-touch .btn--white:hover, .btn--white:active {
+  opacity: .8;
 }
