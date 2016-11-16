@@ -116,9 +116,6 @@
   .tm--font-size-60--mob {
     font-size: 60px;
   }
-  .tm--hide--mob {
-    display: none;
-  }
   .tm--position-absolute-mob {
     position: absolute;
   }
@@ -130,9 +127,6 @@
   }
   .tm--text-left-mob {
     text-align: left;
-  }
-  .tm--display-block-mob {
-    display: block;
   }
   .tm--padding-0-mob {
     padding: 0;
@@ -280,6 +274,10 @@
     flex: none!important;
     width: 33% !important;
   }
+  .large-tm-grid--fit > .tm-grid_cell.tm-grid_cell-1of4 {
+    flex: none!important;
+    width: 25% !important;
+  }
   .large-tm-grid--full > .tm-grid_cell {
     flex: 0 0 100%;
   }
@@ -311,7 +309,7 @@
   .tm--text-align-center--desk {
     text-align: center;
   }
-  .tm--hide--mob, .tm--hide--tab {
+  .tm--hide-mob, .tm--hide--tab {
     display: initial;
   }
   .tm--padding-0-desk {

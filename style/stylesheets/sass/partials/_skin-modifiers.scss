@@ -165,3 +165,24 @@
 .tm--overflow-hidden {
   overflow: hidden;
 }
+
+// SMALL SCREENS
+@media (min-width: 1px) and (max-width: 34em) {
+  .tm--show-mob {
+    visibility: visible;
+  }
+}
+
+// MEDIUM SCREENS
+@media (min-width: 34em) {
+  .tm--hide-tab {
+    visibility: hidden;
+  }
+}
+// LARGE SCREENS
+@media (min-width: 48em) {
+  .tm--hide-desk {
+    visibility: hidden;
+  }
+}
+
