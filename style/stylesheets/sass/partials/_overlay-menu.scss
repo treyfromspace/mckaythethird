@@ -9,9 +9,9 @@
   cursor: pointer;
   z-index: 100;
   transition: all .3s ease;
-  &:hover {
+  .no-touch &:hover, &:focus {
     .tm-menu_icon-bar {
-      background: $eerie-black;
+      background: $trolley-grey;
     }
   }
 }
@@ -31,7 +31,7 @@
   }
 }
 .tm-menu_icon-bar {
-  background: $medium-grey;
+  background: $light-grey;
   border: none;
   height: 3px;
   width: 32px;
@@ -113,6 +113,7 @@
   .tm-overlay_menu {
     height: 45%;
     min-height: 240px;
+    max-height: 300px;
   }
 }
 

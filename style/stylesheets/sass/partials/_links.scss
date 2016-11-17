@@ -1,16 +1,16 @@
 // LINK STYLES
-a,a:visited,a:hover,a:active,a:focus {
+a,a:visited,a:active {
   position:relative;
   transition: all 0.3s ease;
   text-decoration:none;
   color: $red;
 }
-.no-touch a:hover {
-  color:$eerie-black;
+.no-touch a:hover, a:focus {
+  color: $dark-red;
 }
 
 // ANIMATED LINK
-a.tm--link-hover:after {
+.tm--link-hover:after {
   content: "";
   transition:0.2s all ease-in-out;
   position:absolute;
@@ -19,35 +19,38 @@ a.tm--link-hover:after {
   opacity: 0;
   width:100%;
   left:0;
-  background:$eerie-black;
+  background:$dark-red;
 }
-.no-touch a.tm--link-hover:hover:after {
-  opacity:.4;
+.no-touch .tm--link-hover:hover:after {
+  opacity: 1;
   bottom:-1px;
 }
 
-a.tm--link-light-grey,a.tm--link-light-grey:visited,a.tm--link-light-grey:active {
+
+// LIGHT GREY LINKS
+.tm--link-light-grey,.tm--link-light-grey:visited,.tm--link-light-grey:active {
   color: $light-grey;
-}
-.no-touch a.tm--link-light-grey:hover,a.tm--link-light-grey:focus {
-  color: $medium-grey;
+  .no-touch &:hover,&:focus {
+    color: $quicksilver-grey;
+  }
 }
 
 // GREY LINKS
 a.tm--link-grey,a.tm--link-grey:visited,a.tm--link-grey:active {
-  color: $medium-grey;
+  color: $quicksilver-grey;
 }
 a.tm--link-grey:hover,a.tm--link-grey:focus {
-  color: $eerie-black;
+  color: $trolley-grey;
 }
 
-// BLACK LINKS (RESUME)
+// BLACK LINKS (RESUME LIGHT)
 a.tm--link-black,a.tm--link-black:visited,a.tm--link-black:active {
   color: $eerie-black;
 }
 a.tm--link-black:hover,a.tm--link-black:focus {
   color: $eerie-black;
 }
+
 
 // ACTIVE LINK
 a.tm--link-active {
