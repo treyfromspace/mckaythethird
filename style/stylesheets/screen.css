@@ -707,94 +707,99 @@ button, input, select, textarea {
   }
 }
 /* line 124, sass/partials/_skin-modifiers.scss */
+.tm--opacity-0 {
+  opacity: 0;
+}
+
+/* line 127, sass/partials/_skin-modifiers.scss */
 .tm--opacity-01 {
   opacity: 0.1;
 }
 
-/* line 127, sass/partials/_skin-modifiers.scss */
+/* line 130, sass/partials/_skin-modifiers.scss */
 .tm--opacity-02 {
   opacity: 0.2;
 }
 
-/* line 130, sass/partials/_skin-modifiers.scss */
+/* line 133, sass/partials/_skin-modifiers.scss */
 .tm--opacity-04 {
   opacity: 0.4;
 }
 
-/* line 133, sass/partials/_skin-modifiers.scss */
+/* line 136, sass/partials/_skin-modifiers.scss */
 .tm--opacity-06 {
   opacity: 0.6;
 }
 
-/* line 136, sass/partials/_skin-modifiers.scss */
+/* line 139, sass/partials/_skin-modifiers.scss */
 .tm--opacity-1 {
   opacity: 1;
 }
 
-/* line 139, sass/partials/_skin-modifiers.scss */
+/* line 142, sass/partials/_skin-modifiers.scss */
 .tm--opacity-hover-08 {
   transition: all 0.3s ease;
 }
-/* line 141, sass/partials/_skin-modifiers.scss */
+/* line 144, sass/partials/_skin-modifiers.scss */
 .no-touch .tm--opacity-hover-08:hover, .tm--opacity-hover-08:focus {
   opacity: 0.8;
 }
 
-/* line 145, sass/partials/_skin-modifiers.scss */
+/* line 148, sass/partials/_skin-modifiers.scss */
 .tm--opacity-hover-06 {
   transition: all 0.3s ease;
 }
-/* line 147, sass/partials/_skin-modifiers.scss */
+/* line 150, sass/partials/_skin-modifiers.scss */
 .no-touch .tm--opacity-hover-06:hover, .tm--opacity-hover-06:focus {
   opacity: 0.6;
 }
 
-/* line 151, sass/partials/_skin-modifiers.scss */
+/* line 154, sass/partials/_skin-modifiers.scss */
 .tm--opacity-hover-04 {
   transition: all 0.3s ease;
 }
-/* line 153, sass/partials/_skin-modifiers.scss */
+/* line 156, sass/partials/_skin-modifiers.scss */
 .no-touch .tm--opacity-hover-04:hover, .tm--opacity-hover-04:focus {
   opacity: 0.4;
 }
 
-/* line 157, sass/partials/_skin-modifiers.scss */
+/* line 160, sass/partials/_skin-modifiers.scss */
 .tm--opacity-hover-02 {
   transition: all 0.3s ease;
 }
-/* line 159, sass/partials/_skin-modifiers.scss */
+/* line 162, sass/partials/_skin-modifiers.scss */
 .no-touch .tm--opacity-hover-02:hover, .tm--opacity-hover-02:focus {
   opacity: 0.2;
 }
 
-/* line 163, sass/partials/_skin-modifiers.scss */
+/* line 166, sass/partials/_skin-modifiers.scss */
 .tm--opacity-hover-0 {
   transition: all 0.3s ease;
 }
-/* line 165, sass/partials/_skin-modifiers.scss */
+/* line 168, sass/partials/_skin-modifiers.scss */
 .no-touch .tm--opacity-hover-0:hover, .tm--opacity-hover-0:focus {
   opacity: 0;
 }
 
-/* line 171, sass/partials/_skin-modifiers.scss */
+/* line 174, sass/partials/_skin-modifiers.scss */
 .tm--overflow-hidden {
   overflow: hidden;
 }
 
 @media (min-width: 1px) and (max-width: 34em) {
-  /* line 177, sass/partials/_skin-modifiers.scss */
+  /* line 180, sass/partials/_skin-modifiers.scss */
   .tm--show-mob {
     visibility: visible;
   }
 }
 @media (min-width: 34em) {
-  /* line 184, sass/partials/_skin-modifiers.scss */
+  /* line 187, sass/partials/_skin-modifiers.scss */
   .tm--hide-tab {
     visibility: hidden;
   }
 }
 @media (min-width: 48em) {
-  /* line 190, sass/partials/_skin-modifiers.scss */
+  /* line 193, sass/partials/_skin-modifiers.scss */
   .tm--hide-desk {
     visibility: hidden;
   }
@@ -1330,16 +1335,26 @@ p {
 }
 
 /* line 31, sass/partials/_images.scss */
+.tm-cover-img--sw {
+  background-image: url("http://mckaythethird.com/img/tm--work-card-img--shapeways.jpg");
+}
+
+/* line 34, sass/partials/_images.scss */
+.tm-cover-img--iw {
+  background-image: url("http://mckaythethird.com/img/tm--work-card-img--iw-2.jpg");
+}
+
+/* line 37, sass/partials/_images.scss */
 .tm-cover-img--3d-tools {
   background-image: url("http://mckaythethird.com/img/3d-tools-cover-big.jpg");
 }
 
-/* line 34, sass/partials/_images.scss */
+/* line 40, sass/partials/_images.scss */
 .tm-cover-img--forums {
   background-image: url("http://mckaythethird.com/img/forums-cover-big.jpg");
 }
 
-/* line 37, sass/partials/_images.scss */
+/* line 43, sass/partials/_images.scss */
 .tm-cover-img--product-edit {
   background-image: url("http://mckaythethird.com/img/product-edit-cover-big.jpg");
 }
@@ -1719,75 +1734,80 @@ a.tm--link-active:after {
   .tm--bg-image {
     background-image: none !important;
   }
+
+  /* line 175, sass/partials/_grid.scss */
+  .tm--order-2-mob {
+    order: 2;
+  }
 }
 /* medium screens to large */
 @media (min-width: 34em) and (max-width: 48em) {
-  /* line 179, sass/partials/_grid.scss */
+  /* line 182, sass/partials/_grid.scss */
   .small-tm-grid--fit > .tm-grid_cell {
     flex: 1;
   }
 
-  /* line 182, sass/partials/_grid.scss */
+  /* line 185, sass/partials/_grid.scss */
   .small-tm-grid--full > .tm-grid_cell {
     flex: 0 0 100%;
   }
 
-  /* line 185, sass/partials/_grid.scss */
+  /* line 188, sass/partials/_grid.scss */
   .small-tm-grid--1of2 > .tm-grid_cell {
     flex: 0 0 50%;
   }
 
-  /* line 188, sass/partials/_grid.scss */
+  /* line 191, sass/partials/_grid.scss */
   .small-tm-grid--1of2.tm-grid--gutters > .tm-grid_cell {
     flex: 0 0 48%;
   }
 
-  /* line 191, sass/partials/_grid.scss */
+  /* line 194, sass/partials/_grid.scss */
   .small-tm-grid--1of3 > .tm-grid_cell {
     flex: 0 0 33.3333%;
   }
 
-  /* line 194, sass/partials/_grid.scss */
+  /* line 197, sass/partials/_grid.scss */
   .small-tm-grid--1of4 > .tm-grid_cell {
     flex: 0 0 25%;
   }
 
-  /* line 197, sass/partials/_grid.scss */
+  /* line 200, sass/partials/_grid.scss */
   .tm--font-size-84--tab {
     font-size: 84px;
   }
 
-  /* line 200, sass/partials/_grid.scss */
+  /* line 203, sass/partials/_grid.scss */
   .tm--hide--tab {
     display: none;
   }
 
-  /* line 203, sass/partials/_grid.scss */
+  /* line 206, sass/partials/_grid.scss */
   .tm--width-three-qtr--tab {
     max-width: 75%;
   }
 
-  /* line 206, sass/partials/_grid.scss */
+  /* line 209, sass/partials/_grid.scss */
   .tm--text-center-tab {
     text-align: center;
   }
 
-  /* line 209, sass/partials/_grid.scss */
+  /* line 212, sass/partials/_grid.scss */
   .tm--text-left-tab {
     text-align: left;
   }
 
-  /* line 212, sass/partials/_grid.scss */
+  /* line 215, sass/partials/_grid.scss */
   .select-work, .tm-about-intro {
     padding-top: 7%;
   }
 
-  /* line 215, sass/partials/_grid.scss */
+  /* line 218, sass/partials/_grid.scss */
   .tm-about-intro {
     margin-top: 2rem;
   }
 
-  /* line 218, sass/partials/_grid.scss */
+  /* line 221, sass/partials/_grid.scss */
   .tm-project-footer {
     width: 86%;
     padding: 3rem 7%;
@@ -1795,7 +1815,7 @@ a.tm--link-active:after {
 }
 /*SMALL DETAIL FOR PROJECT FOOTER SPACING*/
 @media (max-width: 1334px) {
-  /* line 226, sass/partials/_grid.scss */
+  /* line 229, sass/partials/_grid.scss */
   .tm-project-footer {
     width: 86%;
     padding: 3rem 7%;
@@ -1803,35 +1823,35 @@ a.tm--link-active:after {
 }
 /*DETAILS FOR JUMBO TEXT*/
 @media (min-width: 1rem) and (max-width: 34rem) {
-  /* line 233, sass/partials/_grid.scss */
+  /* line 236, sass/partials/_grid.scss */
   .tm--main-headline {
     font-size: 3rem;
     line-height: .9em;
   }
 }
 @media (min-width: 34rem) and (max-width: 44rem) {
-  /* line 239, sass/partials/_grid.scss */
+  /* line 242, sass/partials/_grid.scss */
   .tm--main-headline {
     font-size: 4rem;
     line-height: .9em;
   }
 }
 @media (min-width: 44rem) and (max-width: 60rem) {
-  /* line 245, sass/partials/_grid.scss */
+  /* line 248, sass/partials/_grid.scss */
   .tm--main-headline {
     font-size: 5rem;
     line-height: .9em;
   }
 }
 @media (min-width: 60rem) and (max-width: 80rem) {
-  /* line 251, sass/partials/_grid.scss */
+  /* line 254, sass/partials/_grid.scss */
   .tm--main-headline {
     font-size: 6rem;
     line-height: .9em;
   }
 }
 @media (min-width: 80rem) {
-  /* line 257, sass/partials/_grid.scss */
+  /* line 260, sass/partials/_grid.scss */
   .tm--main-headline {
     font-size: 8rem;
     line-height: .9em;
@@ -1839,85 +1859,85 @@ a.tm--link-active:after {
 }
 /* Large screens */
 @media (min-width: 48em) {
-  /* line 267, sass/partials/_grid.scss */
+  /* line 270, sass/partials/_grid.scss */
   .tm-footer-grid.large-tm-grid--fit > .tm-grid_cell {
     flex: 1;
   }
 
-  /* line 270, sass/partials/_grid.scss */
+  /* line 273, sass/partials/_grid.scss */
   .large-tm-grid--fit > .tm-grid_cell {
     flex: 1 !important;
   }
 
-  /* line 273, sass/partials/_grid.scss */
+  /* line 276, sass/partials/_grid.scss */
   .large-tm-grid--fit > .tm-grid_cell.tm-grid_cell-1of3 {
     flex: none !important;
     width: 33% !important;
   }
 
-  /* line 277, sass/partials/_grid.scss */
+  /* line 280, sass/partials/_grid.scss */
   .large-tm-grid--fit > .tm-grid_cell.tm-grid_cell-1of4 {
     flex: none !important;
     width: 25% !important;
   }
 
-  /* line 281, sass/partials/_grid.scss */
+  /* line 284, sass/partials/_grid.scss */
   .large-tm-grid--full > .tm-grid_cell {
     flex: 0 0 100%;
   }
 
-  /* line 284, sass/partials/_grid.scss */
+  /* line 287, sass/partials/_grid.scss */
   .tm-grid--gutters-large.large-tm-grid--1of2 > .tm-grid_cell {
     flex: 0 0 40%;
   }
 
-  /* line 287, sass/partials/_grid.scss */
+  /* line 290, sass/partials/_grid.scss */
   .large-tm-grid--1of2 > .tm-grid_cell {
     flex: 0 0 50%;
   }
 
-  /* line 290, sass/partials/_grid.scss */
+  /* line 293, sass/partials/_grid.scss */
   .large-tm-grid--1of2.tm-grid--gutters > .tm-grid_cell {
     flex: 0 0 48%;
   }
 
-  /* line 293, sass/partials/_grid.scss */
+  /* line 296, sass/partials/_grid.scss */
   .large-tm-grid--1of3 > .tm-grid_cell {
     flex: 0 0 33.3333%;
   }
 
-  /* line 296, sass/partials/_grid.scss */
+  /* line 299, sass/partials/_grid.scss */
   .large-tm-grid--1of3.tm-grid--gutters > .tm-grid_cell {
     flex: 0 0 31.3333%;
   }
 
-  /* line 299, sass/partials/_grid.scss */
+  /* line 302, sass/partials/_grid.scss */
   .large-tm-grid--1of4 > .tm-grid_cell {
     flex: 0 0 25%;
   }
 
-  /* line 302, sass/partials/_grid.scss */
+  /* line 305, sass/partials/_grid.scss */
   .large-tm-grid--fit > .tm-grid_cell.tm-grid--1of4 {
     flex: 0 0 25% !important;
   }
 
-  /* line 305, sass/partials/_grid.scss */
+  /* line 308, sass/partials/_grid.scss */
   .tm--centered--desk {
     margin-left: auto;
     margin-right: auto;
   }
 
-  /* line 309, sass/partials/_grid.scss */
+  /* line 312, sass/partials/_grid.scss */
   .tm--text-align-center--desk {
     text-align: center;
   }
 
-  /* line 312, sass/partials/_grid.scss */
+  /* line 315, sass/partials/_grid.scss */
   .tm--hide-mob, .tm--hide--tab {
     display: initial;
   }
 
-  /* line 315, sass/partials/_grid.scss */
+  /* line 318, sass/partials/_grid.scss */
   .tm--padding-0-desk {
     padding: 0;
   }
