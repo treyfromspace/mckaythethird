@@ -172,9 +172,6 @@
   .tm--bg-image {
     background-image: none !important;
   }
-  .tm--order-2-mob {
-    order: 2;
-  }
 }
 
 /* medium screens to large */
@@ -260,6 +257,12 @@
   .tm--main-headline {
     font-size: 8rem;
     line-height: .9em;
+  }
+}
+
+@media (max-width: 768px) {
+    .tm--order-2-mob {
+    order: 2;
   }
 }
 
