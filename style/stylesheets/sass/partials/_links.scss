@@ -7,6 +7,7 @@ a,a:visited,a:active {
 }
 .no-touch a:hover, a:focus {
   color: $dark-red;
+  cursor: pointer;
 }
 
 // ANIMATED LINK
@@ -24,6 +25,7 @@ a,a:visited,a:active {
 .no-touch .tm--link-hover:hover:after {
   opacity: 1;
   bottom:-1px;
+  cursor: pointer;
 }
 
 
@@ -32,23 +34,27 @@ a,a:visited,a:active {
   color: $light-grey;
   .no-touch &:hover,&:focus {
     color: $quicksilver-grey;
+    cursor: pointer;
   }
 }
 
 // GREY LINKS
-a.tm--link-grey,a.tm--link-grey:visited,a.tm--link-grey:active {
+.tm--link-grey,.tm--link-grey:visited,.tm--link-grey:active {
   color: $quicksilver-grey;
 }
-a.tm--link-grey:hover,a.tm--link-grey:focus {
+.no-touch .tm--link-grey:hover,.tm--link-grey:focus {
   color: $trolley-grey;
+  cursor: pointer;
 }
 
 // BLACK LINKS (RESUME LIGHT)
-a.tm--link-black,a.tm--link-black:visited,a.tm--link-black:active {
+.tm--link-black,.tm--link-black:visited,.tm--link-black:active {
   color: $eerie-black;
+  cursor: pointer;
 }
-a.tm--link-black:hover,a.tm--link-black:focus {
+.no-touch .tm--link-black:hover,.tm--link-black:focus {
   color: $eerie-black;
+  cursor: pointer;
 }
 
 
@@ -80,6 +86,7 @@ a.tm--link-active:after {
 .no-touch .btn:hover, .btn:active {
   opacity: .8;
   color: $white;
+  cursor: pointer;
 }
 
 // WHITE BUTTON
@@ -99,4 +106,28 @@ a.tm--link-active:after {
 }
 .no-touch .btn--white:hover, .btn--white:active {
   opacity: .8;
+  cursor: pointer;
+  color: $eerie-black
+}
+// OUTLINE - WHITE BUTTON
+.btn--white-outline, .btn--white-outline:visited {
+  border: 1px solid $light-grey;
+  background-color: rgba(0,0,0,0);
+  border-radius: 3px;
+  color: $light-grey;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 13px;
+  margin-top: 10px;
+  display: inline-block;
+  text-transform: uppercase;
+  line-height: 1em;
+  padding: 1em 2em;
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+.no-touch .btn--white-outline:hover, .btn--white-outline:active {
+  border: 1px solid $quicksilver-grey;
+  color: $light-grey;
+  cursor: pointer;
 }

@@ -627,51 +627,56 @@ button, input, select, textarea {
 }
 
 /* line 58, sass/partials/_skin-modifiers.scss */
+.tm--bg-dark-grey {
+  background-color: #323334;
+}
+
+/* line 61, sass/partials/_skin-modifiers.scss */
 .tm--bg-eerie-black {
   background-color: #1e1e1e;
 }
 
-/* line 61, sass/partials/_skin-modifiers.scss */
+/* line 64, sass/partials/_skin-modifiers.scss */
 .tm--bg-black {
   background-color: #000000;
 }
 
-/* line 64, sass/partials/_skin-modifiers.scss */
+/* line 67, sass/partials/_skin-modifiers.scss */
 .tm--bg-sw-blue {
   background-color: #4FC9FF;
 }
 
-/* line 69, sass/partials/_skin-modifiers.scss */
+/* line 72, sass/partials/_skin-modifiers.scss */
 .tm--border-radius-2 {
   border-radius: 2px;
 }
 
-/* line 72, sass/partials/_skin-modifiers.scss */
+/* line 75, sass/partials/_skin-modifiers.scss */
 .tm--border-radius-3 {
   border-radius: 3px;
 }
 
-/* line 75, sass/partials/_skin-modifiers.scss */
+/* line 78, sass/partials/_skin-modifiers.scss */
 .tm--border-grey-1 {
   border: 1px solid #e0e3e5;
 }
 
-/* line 78, sass/partials/_skin-modifiers.scss */
+/* line 81, sass/partials/_skin-modifiers.scss */
 .tm--border-top-grey-1 {
   border-top: 1px solid #e0e3e5;
 }
 
-/* line 81, sass/partials/_skin-modifiers.scss */
+/* line 84, sass/partials/_skin-modifiers.scss */
 .tm--border-top-grey-2 {
   border-top: 2px solid #e0e3e5;
 }
 
-/* line 84, sass/partials/_skin-modifiers.scss */
+/* line 87, sass/partials/_skin-modifiers.scss */
 .tm--border-top-black-2 {
   border-top: 2px solid #1e1e1e;
 }
 
-/* line 89, sass/partials/_skin-modifiers.scss */
+/* line 92, sass/partials/_skin-modifiers.scss */
 .tm-bg_img-container {
   position: absolute;
   top: 0;
@@ -684,7 +689,7 @@ button, input, select, textarea {
   overflow: hidden;
 }
 
-/* line 100, sass/partials/_skin-modifiers.scss */
+/* line 103, sass/partials/_skin-modifiers.scss */
 .tm-bg_img {
   position: absolute;
   top: 0;
@@ -705,106 +710,106 @@ button, input, select, textarea {
 
 /*DETAILS FOR JUMBO TEXT*/
 @media (min-width: 1px) and (max-width: 700px) {
-  /* line 120, sass/partials/_skin-modifiers.scss */
+  /* line 123, sass/partials/_skin-modifiers.scss */
   .tm-bg_img {
     display: none !important;
     opacity: 0 !important;
   }
 }
-/* line 127, sass/partials/_skin-modifiers.scss */
+/* line 130, sass/partials/_skin-modifiers.scss */
 .tm--opacity-0 {
   opacity: 0;
 }
 
-/* line 130, sass/partials/_skin-modifiers.scss */
+/* line 133, sass/partials/_skin-modifiers.scss */
 .tm--opacity-01 {
   opacity: 0.1;
 }
 
-/* line 133, sass/partials/_skin-modifiers.scss */
+/* line 136, sass/partials/_skin-modifiers.scss */
 .tm--opacity-02 {
   opacity: 0.2;
 }
 
-/* line 136, sass/partials/_skin-modifiers.scss */
+/* line 139, sass/partials/_skin-modifiers.scss */
 .tm--opacity-04 {
   opacity: 0.4;
 }
 
-/* line 139, sass/partials/_skin-modifiers.scss */
+/* line 142, sass/partials/_skin-modifiers.scss */
 .tm--opacity-06 {
   opacity: 0.6;
 }
 
-/* line 142, sass/partials/_skin-modifiers.scss */
+/* line 145, sass/partials/_skin-modifiers.scss */
 .tm--opacity-1 {
   opacity: 1;
 }
 
-/* line 145, sass/partials/_skin-modifiers.scss */
+/* line 148, sass/partials/_skin-modifiers.scss */
 .tm--opacity-hover-08 {
   transition: all 0.3s ease;
 }
-/* line 147, sass/partials/_skin-modifiers.scss */
+/* line 150, sass/partials/_skin-modifiers.scss */
 .no-touch .tm--opacity-hover-08:hover, .tm--opacity-hover-08:focus {
   opacity: 0.8;
 }
 
-/* line 151, sass/partials/_skin-modifiers.scss */
+/* line 154, sass/partials/_skin-modifiers.scss */
 .tm--opacity-hover-06 {
   transition: all 0.3s ease;
 }
-/* line 153, sass/partials/_skin-modifiers.scss */
+/* line 156, sass/partials/_skin-modifiers.scss */
 .no-touch .tm--opacity-hover-06:hover, .tm--opacity-hover-06:focus {
   opacity: 0.6;
 }
 
-/* line 157, sass/partials/_skin-modifiers.scss */
+/* line 160, sass/partials/_skin-modifiers.scss */
 .tm--opacity-hover-04 {
   transition: all 0.3s ease;
 }
-/* line 159, sass/partials/_skin-modifiers.scss */
+/* line 162, sass/partials/_skin-modifiers.scss */
 .no-touch .tm--opacity-hover-04:hover, .tm--opacity-hover-04:focus {
   opacity: 0.4;
 }
 
-/* line 163, sass/partials/_skin-modifiers.scss */
+/* line 166, sass/partials/_skin-modifiers.scss */
 .tm--opacity-hover-02 {
   transition: all 0.3s ease;
 }
-/* line 165, sass/partials/_skin-modifiers.scss */
+/* line 168, sass/partials/_skin-modifiers.scss */
 .no-touch .tm--opacity-hover-02:hover, .tm--opacity-hover-02:focus {
   opacity: 0.2;
 }
 
-/* line 169, sass/partials/_skin-modifiers.scss */
+/* line 172, sass/partials/_skin-modifiers.scss */
 .tm--opacity-hover-0 {
   transition: all 0.3s ease;
 }
-/* line 171, sass/partials/_skin-modifiers.scss */
+/* line 174, sass/partials/_skin-modifiers.scss */
 .no-touch .tm--opacity-hover-0:hover, .tm--opacity-hover-0:focus {
   opacity: 0;
 }
 
-/* line 177, sass/partials/_skin-modifiers.scss */
+/* line 180, sass/partials/_skin-modifiers.scss */
 .tm--overflow-hidden {
   overflow: hidden;
 }
 
 @media (min-width: 1px) and (max-width: 34em) {
-  /* line 183, sass/partials/_skin-modifiers.scss */
+  /* line 186, sass/partials/_skin-modifiers.scss */
   .tm--show-mob {
     visibility: visible;
   }
 }
 @media (min-width: 34em) {
-  /* line 190, sass/partials/_skin-modifiers.scss */
+  /* line 193, sass/partials/_skin-modifiers.scss */
   .tm--hide-tab {
     visibility: hidden;
   }
 }
 @media (min-width: 48em) {
-  /* line 196, sass/partials/_skin-modifiers.scss */
+  /* line 199, sass/partials/_skin-modifiers.scss */
   .tm--hide-desk {
     visibility: hidden;
   }
@@ -1375,9 +1380,10 @@ a, a:visited, a:active {
 /* line 8, sass/partials/_links.scss */
 .no-touch a:hover, a:focus {
   color: #662323;
+  cursor: pointer;
 }
 
-/* line 13, sass/partials/_links.scss */
+/* line 14, sass/partials/_links.scss */
 .tm--link-hover:after {
   content: "";
   transition: 0.2s all ease-in-out;
@@ -1390,54 +1396,59 @@ a, a:visited, a:active {
   background: #662323;
 }
 
-/* line 24, sass/partials/_links.scss */
+/* line 25, sass/partials/_links.scss */
 .no-touch .tm--link-hover:hover:after {
   opacity: 1;
   bottom: -1px;
+  cursor: pointer;
 }
 
-/* line 31, sass/partials/_links.scss */
+/* line 33, sass/partials/_links.scss */
 .tm--link-light-grey, .tm--link-light-grey:visited, .tm--link-light-grey:active {
   color: #dbdbdb;
 }
-/* line 33, sass/partials/_links.scss */
+/* line 35, sass/partials/_links.scss */
 .no-touch .tm--link-light-grey:hover, .tm--link-light-grey:focus, .no-touch .tm--link-light-grey:visited:hover, .tm--link-light-grey:visited:focus, .no-touch .tm--link-light-grey:active:hover, .tm--link-light-grey:active:focus {
   color: #A0A0A0;
-}
-
-/* line 39, sass/partials/_links.scss */
-a.tm--link-grey, a.tm--link-grey:visited, a.tm--link-grey:active {
-  color: #A0A0A0;
+  cursor: pointer;
 }
 
 /* line 42, sass/partials/_links.scss */
-a.tm--link-grey:hover, a.tm--link-grey:focus {
+.tm--link-grey, .tm--link-grey:visited, .tm--link-grey:active {
+  color: #A0A0A0;
+}
+
+/* line 45, sass/partials/_links.scss */
+.no-touch .tm--link-grey:hover, .tm--link-grey:focus {
   color: #7B7F84;
+  cursor: pointer;
 }
 
-/* line 47, sass/partials/_links.scss */
-a.tm--link-black, a.tm--link-black:visited, a.tm--link-black:active {
+/* line 51, sass/partials/_links.scss */
+.tm--link-black, .tm--link-black:visited, .tm--link-black:active {
   color: #1e1e1e;
+  cursor: pointer;
 }
 
-/* line 50, sass/partials/_links.scss */
-a.tm--link-black:hover, a.tm--link-black:focus {
+/* line 55, sass/partials/_links.scss */
+.no-touch .tm--link-black:hover, .tm--link-black:focus {
   color: #1e1e1e;
+  cursor: pointer;
 }
 
-/* line 56, sass/partials/_links.scss */
+/* line 62, sass/partials/_links.scss */
 a.tm--link-active {
   color: #1e1e1e;
   cursor: default;
 }
 
-/* line 60, sass/partials/_links.scss */
+/* line 66, sass/partials/_links.scss */
 a.tm--link-active:after {
   opacity: .4;
   bottom: -1px;
 }
 
-/* line 66, sass/partials/_links.scss */
+/* line 72, sass/partials/_links.scss */
 .btn, .btn:visited {
   border: none;
   background-color: #1e1e1e;
@@ -1453,13 +1464,14 @@ a.tm--link-active:after {
   transition: all 0.3s ease;
 }
 
-/* line 80, sass/partials/_links.scss */
+/* line 86, sass/partials/_links.scss */
 .no-touch .btn:hover, .btn:active {
   opacity: .8;
   color: #f9f9f9;
+  cursor: pointer;
 }
 
-/* line 86, sass/partials/_links.scss */
+/* line 93, sass/partials/_links.scss */
 .btn--white, .btn--white:visited {
   border: none;
   background-color: #F2F2F2;
@@ -1475,9 +1487,36 @@ a.tm--link-active:after {
   transition: all 0.3s ease;
 }
 
-/* line 100, sass/partials/_links.scss */
+/* line 107, sass/partials/_links.scss */
 .no-touch .btn--white:hover, .btn--white:active {
   opacity: .8;
+  cursor: pointer;
+  color: #1e1e1e;
+}
+
+/* line 113, sass/partials/_links.scss */
+.btn--white-outline, .btn--white-outline:visited {
+  border: 1px solid #dbdbdb;
+  background-color: transparent;
+  border-radius: 3px;
+  color: #dbdbdb;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 13px;
+  margin-top: 10px;
+  display: inline-block;
+  text-transform: uppercase;
+  line-height: 1em;
+  padding: 1em 2em;
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+
+/* line 129, sass/partials/_links.scss */
+.no-touch .btn--white-outline:hover, .btn--white-outline:active {
+  border: 1px solid #A0A0A0;
+  color: #dbdbdb;
+  cursor: pointer;
 }
 
 /* line 2, sass/partials/_grid.scss */
