@@ -41,6 +41,15 @@
 .tm--margin-right-1 {
   margin-right: 5px;
 }
+.tm--margin-right-2 {
+  margin-right: 10px;
+}
+.tm--margin-right-3 {
+  margin-right: 15px;
+}
+.tm--margin-right-4 {
+  margin-right:20px;
+}
 .tm--margin-right-6 {
   margin-right: 30px;
 }
@@ -73,6 +82,9 @@
 .tm--padding-top-4 {
   padding-top: 20px;
 }
+.tm--padding-top-6 {
+  padding-top:30px;
+}
 .tm--padding-top-5-percent {
   padding-top:5%;
 }
@@ -100,7 +112,7 @@
 .tm--padding-bottom-3rem {
   padding-bottom: 3rem;
 }
-.tm--padding-30 {
+.tm--padding-30, .tm--padding-6 {
   padding: 30px;
 }
 .tm--padding-right-30 {
