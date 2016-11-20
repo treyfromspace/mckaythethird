@@ -139,3 +139,25 @@ a.tm--link-active:after {
   color: $light-grey;
   cursor: pointer;
 }
+
+// OUTLINE - GOLD BUTTON
+.btn--gold-outline, .btn--gold-outline:visited {
+  border: 1px solid $gold;
+  background-color: rgba(0,0,0,0);
+  border-radius: 3px;
+  color: $light-grey;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 13px;
+  display: inline-block;
+  text-transform: uppercase;
+  line-height: 1em;
+  padding: 1em 2em;
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+.no-touch .btn--gold-outline:hover, .btn--gold-outline:active,.btn--gold-outline:focus {
+  border: 1px solid scale-lightness($gold, -30%);
+  color: $light-grey;
+  cursor: pointer;
+}

@@ -61,6 +61,9 @@
 .tm--bg-eerie-black {
   background-color: $eerie-black;
 }
+.tm--bg-spooky-black {
+  background-color: $spooky-black;
+}
 .tm--bg-black {
   background-color: $true-black;
 }
@@ -77,6 +80,9 @@
 }
 .tm--border-grey-1 {
   border: 1px solid $rule-color;
+}
+.tm--border-top-gold-2 {
+  border-top:2px solid $gold;
 }
 .tm--border-top-grey-1 {
   border-top: 1px solid $rule-color;
