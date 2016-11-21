@@ -846,151 +846,156 @@ p {
 }
 
 /* line 12, sass/partials/_typography.scss */
+em {
+  font-style: italic;
+}
+
+/* line 15, sass/partials/_typography.scss */
 .tm--font-serif {
   font-family: 'PT Serif', serif;
 }
 
-/* line 15, sass/partials/_typography.scss */
+/* line 18, sass/partials/_typography.scss */
 .tm--font-sans {
   font-family: 'Open Sans', sans-serif;
 }
 
-/* line 18, sass/partials/_typography.scss */
+/* line 21, sass/partials/_typography.scss */
 .tm--font-weight-normal {
   font-weight: normal;
 }
 
-/* line 21, sass/partials/_typography.scss */
+/* line 24, sass/partials/_typography.scss */
 .tm--font-weight-bold {
   font-weight: 700;
 }
 
-/* line 24, sass/partials/_typography.scss */
+/* line 27, sass/partials/_typography.scss */
 .tm--font-weight-heavy {
   font-weight: 800;
 }
 
-/* line 29, sass/partials/_typography.scss */
+/* line 32, sass/partials/_typography.scss */
 .tm--font-size-14 {
   font-size: 14px;
   line-height: 1.5em;
 }
 
-/* line 33, sass/partials/_typography.scss */
+/* line 36, sass/partials/_typography.scss */
 .tm--font-size-16 {
   font-size: 16px;
   line-height: 26px;
 }
 
-/* line 37, sass/partials/_typography.scss */
+/* line 40, sass/partials/_typography.scss */
 .tm--font-size-18 {
   font-size: 18px;
   line-height: 1.5em;
 }
 
-/* line 41, sass/partials/_typography.scss */
+/* line 44, sass/partials/_typography.scss */
 .tm--font-size-22 {
   font-size: 22px;
   line-height: 1.5em;
 }
 
-/* line 45, sass/partials/_typography.scss */
+/* line 48, sass/partials/_typography.scss */
 .tm--font-size-24 {
   font-size: 24px;
   line-height: 1.7em;
 }
 
-/* line 49, sass/partials/_typography.scss */
+/* line 52, sass/partials/_typography.scss */
 .tm--font-size-26 {
   font-size: 26px;
   line-height: 1.5em;
 }
 
-/* line 53, sass/partials/_typography.scss */
+/* line 56, sass/partials/_typography.scss */
 .tm--font-size-30 {
   font-size: 30px;
 }
 
-/* line 56, sass/partials/_typography.scss */
+/* line 59, sass/partials/_typography.scss */
 .tm--font-size-36 {
   font-size: 36px;
   line-height: 1.4em;
 }
 
-/* line 60, sass/partials/_typography.scss */
+/* line 63, sass/partials/_typography.scss */
 .tm--font-size-40 {
   font-size: 40px;
   line-height: 1.4em;
 }
 
-/* line 64, sass/partials/_typography.scss */
+/* line 67, sass/partials/_typography.scss */
 .tm--font-size-44 {
   font-size: 44px;
   line-height: 1.4em;
 }
 
-/* line 68, sass/partials/_typography.scss */
+/* line 71, sass/partials/_typography.scss */
 .tm--font-size-48 {
   font-size: 48px;
   line-height: 1em;
 }
 
-/* line 72, sass/partials/_typography.scss */
+/* line 75, sass/partials/_typography.scss */
 .tm--font-size-72 {
   font-size: 72px;
   line-height: 1em;
 }
 
-/* line 76, sass/partials/_typography.scss */
+/* line 79, sass/partials/_typography.scss */
 .tm--font-size-108 {
   font-size: 108px;
   line-height: 1em;
 }
 
-/* line 80, sass/partials/_typography.scss */
+/* line 83, sass/partials/_typography.scss */
 .tm--font-size-128 {
   font-size: 128px;
   line-height: 1em;
 }
 
-/* line 84, sass/partials/_typography.scss */
+/* line 87, sass/partials/_typography.scss */
 .tm--font-size-168 {
   font-size: 168px;
   line-height: 1em;
 }
 
-/* line 88, sass/partials/_typography.scss */
+/* line 91, sass/partials/_typography.scss */
 .tm--font-size-188 {
   font-size: 188px;
   line-height: .9em;
 }
 
-/* line 92, sass/partials/_typography.scss */
+/* line 95, sass/partials/_typography.scss */
 .tm--line-height-1 {
   line-height: 1em;
 }
 
-/* line 97, sass/partials/_typography.scss */
+/* line 100, sass/partials/_typography.scss */
 .tm--letter-spacing-05 {
   letter-spacing: 0.5px;
 }
 
-/* line 100, sass/partials/_typography.scss */
+/* line 103, sass/partials/_typography.scss */
 .tm--letter-spacing-1 {
   letter-spacing: 1px;
 }
 
-/* line 103, sass/partials/_typography.scss */
+/* line 106, sass/partials/_typography.scss */
 .tm--letter-spacing-3 {
   letter-spacing: 3px;
 }
 
-/* line 106, sass/partials/_typography.scss */
+/* line 109, sass/partials/_typography.scss */
 .tm--letter-spacing-10 {
   letter-spacing: 10px;
 }
 
-/* line 109, sass/partials/_typography.scss */
+/* line 112, sass/partials/_typography.scss */
 .tm--main-headline {
   transition: all 0.2s ease;
   -moz-transition: all 0.2s ease;
@@ -1003,34 +1008,34 @@ p {
   /* Explorer 10 */
 }
 
-/* line 116, sass/partials/_typography.scss */
+/* line 119, sass/partials/_typography.scss */
 .tm-nav-list_link:after {
   content: "/";
   padding: 0 .5em 0 .5em;
   color: rgba(0, 0, 0, 0.3);
 }
 
-/* line 121, sass/partials/_typography.scss */
+/* line 124, sass/partials/_typography.scss */
 .tm-nav-list_link.last:after {
   color: transparent;
 }
 
-/* line 126, sass/partials/_typography.scss */
+/* line 129, sass/partials/_typography.scss */
 .tm--text-center {
   text-align: center;
 }
 
-/* line 129, sass/partials/_typography.scss */
+/* line 132, sass/partials/_typography.scss */
 .tm--text-right {
   text-align: right;
 }
 
-/* line 132, sass/partials/_typography.scss */
+/* line 135, sass/partials/_typography.scss */
 .tm--blackletter-align {
   margin-left: -3px;
 }
 
-/* line 136, sass/partials/_typography.scss */
+/* line 139, sass/partials/_typography.scss */
 .tm--logotype:after {
   content: "~";
   padding: 0 5px 0 0;
