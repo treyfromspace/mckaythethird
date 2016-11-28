@@ -110,15 +110,15 @@ button, input, select, textarea {
 
 /* line 82, sass/partials/_base.scss */
 ::-moz-selection {
-  background: #1e1e1e;
-  color: #F2F2F2;
+  background: #B7A15D;
+  color: #1e1e1e;
   text-shadow: none;
 }
 
 /* line 87, sass/partials/_base.scss */
 ::selection {
-  background: #1e1e1e;
-  color: #F2F2F2;
+  background: #B7A15D;
+  color: #1e1e1e;
   text-shadow: none;
 }
 
@@ -407,7 +407,7 @@ button, input, select, textarea {
 /* line 2, sass/partials/_overlay-menu.scss */
 .tm-menu_container {
   position: fixed;
-  top: 5px;
+  top: 15px;
   right: 5px;
   height: 20px;
   width: 32px;
@@ -520,18 +520,17 @@ button, input, select, textarea {
 
   /* line 101, sass/partials/_overlay-menu.scss */
   .tm-menu_container {
-    top: 9px;
     visibility: visible;
   }
 }
 @media (min-width: 34em) and (max-width: 48em) {
-  /* line 109, sass/partials/_overlay-menu.scss */
+  /* line 108, sass/partials/_overlay-menu.scss */
   .tm-overlay_menu {
     height: 50%;
   }
 }
 @media (min-width: 48em) {
-  /* line 115, sass/partials/_overlay-menu.scss */
+  /* line 114, sass/partials/_overlay-menu.scss */
   .tm-overlay_menu {
     height: 45%;
     min-height: 240px;
