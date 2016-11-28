@@ -8,82 +8,22 @@
 .tm--margin-bottom-2-percent {
   margin-bottom: 2%;
 }
-.tm--margin-bottom-0 {
-  margin-bottom: 0px;
-}
-.tm--margin-bottom-1 {
-  margin-bottom: 5px;
-}
-.tm--margin-bottom-2 {
-  margin-bottom: 10px;
-}
-.tm--margin-bottom-4 {
-  margin-bottom: 20px;
-}
-.tm--margin-bottom-6 {
-  margin-bottom:30px;
-}
-.tm--margin-bottom-8 {
-  margin-bottom: 40px;
-}
-.tm--margin-right-4 {
-  margin-right:20px;
-}
-.tm--margin-left-4 {
-  margin-left:20px;
-}
-.tm--margin-left-5 {
-  margin-left:25px;
-}
-.tm--margin-left-1 {
-  margin-left: 5px;
-}
-.tm--margin-right-1 {
-  margin-right: 5px;
-}
-.tm--margin-right-2 {
-  margin-right: 10px;
-}
-.tm--margin-right-3 {
-  margin-right: 15px;
-}
-.tm--margin-right-4 {
-  margin-right:20px;
-}
-.tm--margin-right-6 {
-  margin-right: 30px;
-}
-.tm--margin-top-2 {
-  margin-top: 10px;
-}
-.tm--margin-top-4 {
-  margin-top: 20px;
-}
-.tm--margin-top-5 {
-  margin-top:25px;
-}
-.tm--margin-top-8 {
-  margin-top: 40px;
-}
-.tm--margin-top-10 {
-  margin-top: 60px;
-}
-.tm--margin-left-8 {
-  margin-left: 40px;
-}
+@include marginIncBuilder(0, 0);
+@include marginIncBuilder(.5, '1-2');
+@include marginIncBuilder(1, 1);
+@include marginIncBuilder(2, 2);
+@include marginIncBuilder(3, 3);
+@include marginIncBuilder(4, 4);
+@include marginIncBuilder(5, 5);
+@include marginIncBuilder(6, 6);
+@include marginIncBuilder(7, 7);
+@include marginIncBuilder(8, 8);
+@include marginIncBuilder(9, 9);
+@include marginIncBuilder(10, 10);
 
 // PADDING
 .tm--padding-7-percent {
   padding: 7%;
-}
-.tm--padding-top-3 {
-  padding-top: 15px;
-}
-.tm--padding-top-4 {
-  padding-top: 20px;
-}
-.tm--padding-top-6 {
-  padding-top:30px;
 }
 .tm--padding-top-5-percent {
   padding-top:5%;
@@ -99,31 +39,18 @@
   padding-left:7%;
   padding-right:7%;
 }
-.tm--padding-horiz-2 {
-  padding-left: 10px;
-  padding-right: 10px;
-}
-.tm--padding-bottom-0 {
-  padding-bottom: 0;
-}
-.tm--padding-bottom-4 {
-  padding-bottom: 20px;
-}
-.tm--padding-bottom-3rem {
-  padding-bottom: 3rem;
-}
-.tm--padding-30, .tm--padding-6 {
-  padding: 30px;
-}
-.tm--padding-right-30 {
-  padding-right:30px;
-}
-.tm--padding-right-2 {
-  padding-right:10px;
-}
-.tm--padding-left-2 {
-  padding-left:10px;
-}
+@include paddingIncBuilder(0, 0);
+@include paddingIncBuilder(.5, '1-2');
+@include paddingIncBuilder(1, 1);
+@include paddingIncBuilder(2, 2);
+@include paddingIncBuilder(3, 3);
+@include paddingIncBuilder(4, 4);
+@include paddingIncBuilder(5, 5);
+@include paddingIncBuilder(6, 6);
+@include paddingIncBuilder(7, 7);
+@include paddingIncBuilder(8, 8);
+@include paddingIncBuilder(9, 9);
+@include paddingIncBuilder(10, 10);
 
 
 // DISPLAY MODS

@@ -1,0 +1,88 @@
+@mixin gridIncBuilder($type, $increment, $name, $g-increment) {
+  $amount: $g-increment * $increment;
+
+  .tm--#{$type}-#{$name} {
+    #{$type}: $amount;
+  }
+  .tm--#{$type}-left-#{$name} {
+    #{$type}-left: $amount;
+  }
+  .tm--#{$type}-right-#{$name} {
+    #{$type}-right: $amount;
+  }
+  .tm--#{$type}-top-#{$name} {
+    #{$type}-top: $amount;
+  }
+  .tm--#{$type}-bottom-#{$name} {
+    #{$type}-bottom: $amount;
+  }
+  .tm--#{$type}-hor-#{$name} {
+    #{$type}-left: $amount;
+    #{$type}-right: $amount;
+  }
+  .tm--#{$type}-vert-#{$name} {
+    #{$type}-top: $amount;
+    #{$type}-bottom: $amount;
+  }
+
+  .tm--#{$type}-#{$name}-force {
+    #{$type}: $amount !important;
+  }
+  .tm--#{$type}-left-#{$name}-force {
+    #{$type}-left: $amount !important;
+  }
+  .tm--#{$type}-right-#{$name}-force {
+    #{$type}-right: $amount !important;
+  }
+  .tm--#{$type}-top-#{$name}-force {
+    #{$type}-top: $amount !important;
+  }
+  .tm--#{$type}-bottom-#{$name}-force {
+    #{$type}-bottom: $amount !important;
+  }
+  .tm--#{$type}-hor-#{$name}-force {
+    #{$type}-left: $amount !important;
+    #{$type}-right: $amount !important;
+  }
+  .tm--#{$type}-vert-#{$name}-force {
+    #{$type}-top: $amount !important;
+    #{$type}-bottom: $amount !important;
+  }
+}
+
+@mixin pullGridIncBuilder($type, $increment, $name, $g-increment) {
+  $amount: -($g-increment * $increment);
+
+  .tm--#{$type}-#{$name}-pull {
+    #{$type}: $amount;
+  }
+  .tm--#{$type}-left-#{$name}-pull {
+    #{$type}-left: $amount;
+  }
+  .tm--#{$type}-right-#{$name}-pull {
+    #{$type}-right: $amount;
+  }
+  .tm--#{$type}-top-#{$name}-pull {
+    #{$type}-top: $amount;
+  }
+  .tm--#{$type}-bottom-#{$name}-pull {
+    #{$type}-bottom: $amount;
+  }
+  .tm--#{$type}-hor-#{$name}-pull {
+    #{$type}-left: $amount;
+    #{$type}-right: $amount;
+  }
+  .tm--#{$type}-vert-#{$name}-pull {
+    #{$type}-top: $amount;
+    #{$type}-bottom: $amount;
+  }
+}
+
+@mixin marginIncBuilder($increment, $name, $g-increment: $grid-increment) {
+  @include gridIncBuilder('margin', $increment, $name, $g-increment);
+  @include pullGridIncBuilder('margin', $increment, $name, $g-increment);
+}
+
+@mixin paddingIncBuilder($increment, $name, $g-increment: $grid-increment) {
+  @include gridIncBuilder('padding', $increment, $name, $g-increment);
+}

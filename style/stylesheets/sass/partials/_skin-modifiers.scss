@@ -85,7 +85,10 @@
   border: 1px solid $rule-color;
 }
 .tm--border-top-gold-2 {
-  border-top:2px solid $gold;
+  border-top: 2px solid scale-lightness($gold,-20%);
+}
+.tm--border-bottom-gold-2 {
+  border-bottom: 2px solid scale-lightness($gold,-20%);
 }
 .tm--border-top-grey-1 {
   border-top: 1px solid $rule-color;
@@ -95,6 +98,9 @@
 }
 .tm--border-top-dark-grey-2 {
   border-top: 2px solid $dark-grey;
+}
+.tm--border-bottom-dark-grey-2 {
+  border-bottom: 2px solid $dark-grey;
 }
 .tm--border-top-black-2 {
   border-top: 2px solid $eerie-black;
@@ -204,6 +210,10 @@
 @media (min-width: 1px) and (max-width: 34em) {
   .tm--show-mob {
     visibility: visible;
+  }
+  .tm--hide-mob {
+    display: none;
+    visibility: hidden;
   }
 }
 

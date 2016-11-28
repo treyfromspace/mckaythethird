@@ -10,7 +10,7 @@ a,a:visited,a:active {
   cursor: pointer;
 }
 
-// ANIMATED LINK
+// ANIMATED LINK (RED)
 .tm--link-hover:after {
   content: "";
   transition:0.2s all ease-in-out;
@@ -36,7 +36,81 @@ a,a:visited,a:active {
     color: $quicksilver-grey;
     cursor: pointer;
   }
+  &.active,.no-touch &.active:hover {
+    color: $quicksilver-grey;
+    cursor: default;
+  }
 }
+// LIGHT GREY HOVER
+.tm--link-light-grey-hover:after {
+  content: "";
+  transition:0.2s all ease-in-out;
+  position:absolute;
+  bottom:2px;
+  height:1px;
+  opacity: 0;
+  width:100%;
+  left:0;
+  background:$quicksilver-grey;
+}
+.no-touch .tm--link-light-grey-hover:hover:after {
+  opacity: 0.7;
+  bottom:-1px;
+}
+// LIGHT GREY ACTIVE STATE
+.tm--link-light-grey-hover.active:after {
+  content: "";
+  transition:0.2s all ease-in-out;
+  position:absolute;
+  bottom:-1px;
+  height:1px;
+  opacity: 0.7;
+  width:100%;
+  left:0;
+  background:$quicksilver-grey;
+}
+
+// GOLD LINKS
+.tm--link-gold,.tm--link-gold:visited,.tm--link-gold:active {
+  color: $gold;
+  .no-touch &:hover,&:focus {
+    color: scale-lightness($gold, -20%);    cursor: pointer;
+  }
+  &.active,.no-touch &.active:hover {
+    color: $gold;
+    cursor: default;
+  }
+}
+// ANIMATED LINK (GOLD HOVER)
+.tm--link-gold-hover:after {
+  content: "";
+  transition:0.2s all ease-in-out;
+  position:absolute;
+  bottom:2px;
+  height:1px;
+  opacity: 0;
+  width:100%;
+  left:0;
+  background:$gold;
+}
+.no-touch .tm--link-gold-hover:hover:after {
+  opacity: 0.7;
+  bottom:-1px;
+}
+// GOLD ACTIVE STATE
+.tm--link-gold-hover.active:after {
+  content: "";
+  transition:0.2s all ease-in-out;
+  position:absolute;
+  bottom:-1px;
+  height:1px;
+  opacity: 0.7;
+  width:100%;
+  left:0;
+  background:$gold;
+}
+
+
 
 // GREY LINKS
 .tm--link-grey,.tm--link-grey:visited,.tm--link-grey:active {
@@ -55,7 +129,6 @@ a,a:visited,a:active {
   color: $quicksilver-grey;
   cursor: pointer;
 }
-
 
 
 // BLACK LINKS (RESUME LIGHT)

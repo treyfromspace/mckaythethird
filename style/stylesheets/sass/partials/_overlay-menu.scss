@@ -9,6 +9,7 @@
   cursor: pointer;
   z-index: 100;
   transition: all .3s ease;
+  visibility: hidden;
   .no-touch &:hover, &:focus {
     .tm-menu_icon-bar {
       background: $trolley-grey;
@@ -99,6 +100,7 @@
   }
   .tm-menu_container {
     top: 9px;
+    visibility: visible;
   }
 }
 
