@@ -7,12 +7,11 @@
   width: 32px;
   padding:20px;
   cursor: pointer;
-  z-index: 100;
+  z-index: 1000;
   transition: all .3s ease;
-  visibility: hidden;
   .no-touch &:hover, &:focus {
     .tm-menu_icon-bar {
-      background: $trolley-grey;
+      background: $gold;
     }
   }
 }
@@ -52,6 +51,7 @@
 .tm-overlay {
   position: fixed;
   background: $eerie-black;
+  z-index: 999;
   top: 0;
   left: 0;
   width: 100%;
@@ -89,6 +89,12 @@
   min-height: 50px;
   position: relative;
   opacity: 0;
+}
+
+.tm-overlay_social-list {
+  position: relative;
+  top: 30px;
+  right: 50px;
 }
 
 // DEVICE-SIZE OVERRIDES

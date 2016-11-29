@@ -22,7 +22,7 @@
 
 // GUTTERS GRID STANDARD
 .tm-grid--gutters {
-  margin: -2% 0 2% -2%;
+  margin: -2% 0 0 -2%;
 }
 .tm-grid--gutters > .tm-grid_cell {
   padding: 2% 0 0 2%;
@@ -127,6 +127,9 @@
   }
   .tm--text-left-mob {
     text-align: left;
+  }
+  .tm--float-none-mob {
+    float:none;
   }
   .tm--padding-0-mob {
     padding: 0;

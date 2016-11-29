@@ -123,10 +123,10 @@ em {
 .tm-nav-list_link:after {
   content: "/";
   padding: 0 .5em 0 .5em;
-  color: rgba(0,0,0,0.3);
+  color: $gold;
 }
 .tm-nav-list_link.last:after {
-  color: rgba(0,0,0,0.0);
+  color: rgba(255,255,255,0.0);
 }
 
 // TEXT ALIGN

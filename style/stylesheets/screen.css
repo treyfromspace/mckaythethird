@@ -34,7 +34,7 @@ html {
   -webkit-tap-highlight-color: transparent;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
-  background-color: #dbdbdb;
+  background-color: #1e1e1e;
 }
 
 /* line 32, sass/partials/_base.scss */
@@ -110,15 +110,15 @@ button, input, select, textarea {
 
 /* line 82, sass/partials/_base.scss */
 ::-moz-selection {
-  background: #B7A15D;
-  color: #1e1e1e;
+  background: #d4c79e;
+  color: #0F0F0F;
   text-shadow: none;
 }
 
 /* line 87, sass/partials/_base.scss */
 ::selection {
-  background: #B7A15D;
-  color: #1e1e1e;
+  background: #d4c79e;
+  color: #0F0F0F;
   text-shadow: none;
 }
 
@@ -413,32 +413,31 @@ button, input, select, textarea {
   width: 32px;
   padding: 20px;
   cursor: pointer;
-  z-index: 100;
+  z-index: 1000;
   transition: all .3s ease;
-  visibility: hidden;
 }
-/* line 14, sass/partials/_overlay-menu.scss */
+/* line 13, sass/partials/_overlay-menu.scss */
 .no-touch .tm-menu_container:hover .tm-menu_icon-bar, .tm-menu_container:focus .tm-menu_icon-bar {
-  background: #7B7F84;
+  background: #B7A15D;
 }
 
-/* line 21, sass/partials/_overlay-menu.scss */
+/* line 20, sass/partials/_overlay-menu.scss */
 .tm-menu_container-active .tm-menu_icon-top {
   transform: translateY(8px) translateX(0) rotate(45deg);
   background: #dbdbdb !important;
 }
-/* line 25, sass/partials/_overlay-menu.scss */
+/* line 24, sass/partials/_overlay-menu.scss */
 .tm-menu_container-active .tm-menu_icon-mid {
   opacity: 0;
   background: #dbdbdb !important;
 }
-/* line 29, sass/partials/_overlay-menu.scss */
+/* line 28, sass/partials/_overlay-menu.scss */
 .tm-menu_container-active .tm-menu_icon-bot {
   transform: translateY(-8px) translateX(0) rotate(-45deg);
   background: #dbdbdb !important;
 }
 
-/* line 34, sass/partials/_overlay-menu.scss */
+/* line 33, sass/partials/_overlay-menu.scss */
 .tm-menu_icon-bar {
   background: #dbdbdb;
   border: none;
@@ -451,20 +450,21 @@ button, input, select, textarea {
   cursor: pointer;
 }
 
-/* line 45, sass/partials/_overlay-menu.scss */
+/* line 44, sass/partials/_overlay-menu.scss */
 .tm-menu_icon-bar:nth-of-type(2) {
   top: 28px;
 }
 
-/* line 48, sass/partials/_overlay-menu.scss */
+/* line 47, sass/partials/_overlay-menu.scss */
 .tm-menu_icon-bar:nth-of-type(3) {
   top: 36px;
 }
 
-/* line 52, sass/partials/_overlay-menu.scss */
+/* line 51, sass/partials/_overlay-menu.scss */
 .tm-overlay {
   position: fixed;
   background: #1e1e1e;
+  z-index: 999;
   top: 0;
   left: 0;
   width: 100%;
@@ -512,25 +512,32 @@ button, input, select, textarea {
   opacity: 0;
 }
 
+/* line 94, sass/partials/_overlay-menu.scss */
+.tm-overlay_social-list {
+  position: relative;
+  top: 30px;
+  right: 50px;
+}
+
 @media (min-width: 1em) and (max-width: 34em) {
-  /* line 98, sass/partials/_overlay-menu.scss */
+  /* line 104, sass/partials/_overlay-menu.scss */
   .tm-overlay_menu {
     height: 60%;
   }
 
-  /* line 101, sass/partials/_overlay-menu.scss */
+  /* line 107, sass/partials/_overlay-menu.scss */
   .tm-menu_container {
     visibility: visible;
   }
 }
 @media (min-width: 34em) and (max-width: 48em) {
-  /* line 108, sass/partials/_overlay-menu.scss */
+  /* line 114, sass/partials/_overlay-menu.scss */
   .tm-overlay_menu {
     height: 50%;
   }
 }
 @media (min-width: 48em) {
-  /* line 114, sass/partials/_overlay-menu.scss */
+  /* line 120, sass/partials/_overlay-menu.scss */
   .tm-overlay_menu {
     height: 45%;
     min-height: 240px;
@@ -643,103 +650,76 @@ button, input, select, textarea {
 }
 
 /* line 67, sass/partials/_skin-modifiers.scss */
+.tm--bg-smokey-black {
+  background-color: #0F0F0F;
+}
+
+/* line 70, sass/partials/_skin-modifiers.scss */
 .tm--bg-black {
   background-color: #000000;
 }
 
-/* line 70, sass/partials/_skin-modifiers.scss */
+/* line 73, sass/partials/_skin-modifiers.scss */
 .tm--bg-sw-blue {
   background-color: #47c8ff;
 }
 
-/* line 73, sass/partials/_skin-modifiers.scss */
+/* line 76, sass/partials/_skin-modifiers.scss */
 .tm--bg-iw-orange {
   background-color: #F15C3B;
 }
 
-/* line 78, sass/partials/_skin-modifiers.scss */
+/* line 81, sass/partials/_skin-modifiers.scss */
 .tm--border-radius-2 {
   border-radius: 2px;
 }
 
-/* line 81, sass/partials/_skin-modifiers.scss */
+/* line 84, sass/partials/_skin-modifiers.scss */
 .tm--border-radius-3 {
   border-radius: 3px;
 }
 
-/* line 84, sass/partials/_skin-modifiers.scss */
+/* line 87, sass/partials/_skin-modifiers.scss */
 .tm--border-grey-1 {
   border: 1px solid #e0e3e5;
 }
 
-/* line 87, sass/partials/_skin-modifiers.scss */
+/* line 90, sass/partials/_skin-modifiers.scss */
 .tm--border-top-gold-2 {
   border-top: 2px solid #998444;
 }
 
-/* line 90, sass/partials/_skin-modifiers.scss */
+/* line 93, sass/partials/_skin-modifiers.scss */
 .tm--border-bottom-gold-2 {
   border-bottom: 2px solid #998444;
 }
 
-/* line 93, sass/partials/_skin-modifiers.scss */
+/* line 96, sass/partials/_skin-modifiers.scss */
 .tm--border-top-grey-1 {
   border-top: 1px solid #e0e3e5;
 }
 
-/* line 96, sass/partials/_skin-modifiers.scss */
+/* line 99, sass/partials/_skin-modifiers.scss */
 .tm--border-top-grey-2 {
   border-top: 2px solid #e0e3e5;
 }
 
-/* line 99, sass/partials/_skin-modifiers.scss */
+/* line 102, sass/partials/_skin-modifiers.scss */
 .tm--border-top-dark-grey-2 {
   border-top: 2px solid #323334;
 }
 
-/* line 102, sass/partials/_skin-modifiers.scss */
+/* line 105, sass/partials/_skin-modifiers.scss */
 .tm--border-bottom-dark-grey-2 {
   border-bottom: 2px solid #323334;
 }
 
-/* line 105, sass/partials/_skin-modifiers.scss */
+/* line 108, sass/partials/_skin-modifiers.scss */
 .tm--border-top-black-2 {
   border-top: 2px solid #1e1e1e;
 }
 
-/* line 110, sass/partials/_skin-modifiers.scss */
-.tm-bg_img-container {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-  left: 50%;
-  transform: translateX(-50%);
-  overflow: hidden;
-}
-
-/* line 121, sass/partials/_skin-modifiers.scss */
-.tm-bg_img {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-  left: 50%;
-  transform: translateX(-50%);
-  overflow: hidden;
-  user-drag: none;
-  user-select: none;
-  -moz-user-select: none;
-  -webkit-user-drag: none;
-  -webkit-user-select: none;
-  -ms-user-select: none;
-}
-
-/* line 140, sass/partials/_skin-modifiers.scss */
+/* line 114, sass/partials/_skin-modifiers.scss */
 .tm--shadow-30-60 {
   -webkit-box-shadow: 0px 30px 60px 0px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0px 30px 60px 0px rgba(0, 0, 0, 0.3);
@@ -748,112 +728,112 @@ button, input, select, textarea {
 
 /*DETAILS FOR JUMBO TEXT*/
 @media (min-width: 1px) and (max-width: 700px) {
-  /* line 148, sass/partials/_skin-modifiers.scss */
+  /* line 122, sass/partials/_skin-modifiers.scss */
   .tm-bg_img {
     display: none !important;
     opacity: 0 !important;
   }
 }
-/* line 155, sass/partials/_skin-modifiers.scss */
+/* line 129, sass/partials/_skin-modifiers.scss */
 .tm--opacity-0 {
   opacity: 0;
 }
 
-/* line 158, sass/partials/_skin-modifiers.scss */
+/* line 132, sass/partials/_skin-modifiers.scss */
 .tm--opacity-01 {
   opacity: 0.1;
 }
 
-/* line 161, sass/partials/_skin-modifiers.scss */
+/* line 135, sass/partials/_skin-modifiers.scss */
 .tm--opacity-02 {
   opacity: 0.2;
 }
 
-/* line 164, sass/partials/_skin-modifiers.scss */
+/* line 138, sass/partials/_skin-modifiers.scss */
 .tm--opacity-04 {
   opacity: 0.4;
 }
 
-/* line 167, sass/partials/_skin-modifiers.scss */
+/* line 141, sass/partials/_skin-modifiers.scss */
 .tm--opacity-06 {
   opacity: 0.6;
 }
 
-/* line 170, sass/partials/_skin-modifiers.scss */
+/* line 144, sass/partials/_skin-modifiers.scss */
 .tm--opacity-1 {
   opacity: 1;
 }
 
-/* line 173, sass/partials/_skin-modifiers.scss */
+/* line 147, sass/partials/_skin-modifiers.scss */
 .tm--opacity-hover-08 {
   transition: all 0.3s ease;
 }
-/* line 175, sass/partials/_skin-modifiers.scss */
+/* line 149, sass/partials/_skin-modifiers.scss */
 .no-touch .tm--opacity-hover-08:hover, .tm--opacity-hover-08:focus {
   opacity: 0.8;
 }
 
-/* line 179, sass/partials/_skin-modifiers.scss */
+/* line 153, sass/partials/_skin-modifiers.scss */
 .tm--opacity-hover-06 {
   transition: all 0.3s ease;
 }
-/* line 181, sass/partials/_skin-modifiers.scss */
+/* line 155, sass/partials/_skin-modifiers.scss */
 .no-touch .tm--opacity-hover-06:hover, .tm--opacity-hover-06:focus {
   opacity: 0.6;
 }
 
-/* line 185, sass/partials/_skin-modifiers.scss */
+/* line 159, sass/partials/_skin-modifiers.scss */
 .tm--opacity-hover-04 {
   transition: all 0.3s ease;
 }
-/* line 187, sass/partials/_skin-modifiers.scss */
+/* line 161, sass/partials/_skin-modifiers.scss */
 .no-touch .tm--opacity-hover-04:hover, .tm--opacity-hover-04:focus {
   opacity: 0.4;
 }
 
-/* line 191, sass/partials/_skin-modifiers.scss */
+/* line 165, sass/partials/_skin-modifiers.scss */
 .tm--opacity-hover-02 {
   transition: all 0.3s ease;
 }
-/* line 193, sass/partials/_skin-modifiers.scss */
+/* line 167, sass/partials/_skin-modifiers.scss */
 .no-touch .tm--opacity-hover-02:hover, .tm--opacity-hover-02:focus {
   opacity: 0.2;
 }
 
-/* line 197, sass/partials/_skin-modifiers.scss */
+/* line 171, sass/partials/_skin-modifiers.scss */
 .tm--opacity-hover-0 {
   transition: all 0.3s ease;
 }
-/* line 199, sass/partials/_skin-modifiers.scss */
+/* line 173, sass/partials/_skin-modifiers.scss */
 .no-touch .tm--opacity-hover-0:hover, .tm--opacity-hover-0:focus {
   opacity: 0;
 }
 
-/* line 205, sass/partials/_skin-modifiers.scss */
+/* line 179, sass/partials/_skin-modifiers.scss */
 .tm--overflow-hidden {
   overflow: hidden;
 }
 
 @media (min-width: 1px) and (max-width: 34em) {
-  /* line 211, sass/partials/_skin-modifiers.scss */
+  /* line 185, sass/partials/_skin-modifiers.scss */
   .tm--show-mob {
     visibility: visible;
   }
 
-  /* line 214, sass/partials/_skin-modifiers.scss */
+  /* line 188, sass/partials/_skin-modifiers.scss */
   .tm--hide-mob {
     display: none;
     visibility: hidden;
   }
 }
 @media (min-width: 34em) {
-  /* line 222, sass/partials/_skin-modifiers.scss */
+  /* line 196, sass/partials/_skin-modifiers.scss */
   .tm--hide-tab {
     visibility: hidden;
   }
 }
 @media (min-width: 48em) {
-  /* line 228, sass/partials/_skin-modifiers.scss */
+  /* line 202, sass/partials/_skin-modifiers.scss */
   .tm--hide-desk {
     visibility: hidden;
   }
@@ -1047,12 +1027,12 @@ em {
 .tm-nav-list_link:after {
   content: "/";
   padding: 0 .5em 0 .5em;
-  color: rgba(0, 0, 0, 0.3);
+  color: #B7A15D;
 }
 
 /* line 128, sass/partials/_typography.scss */
 .tm-nav-list_link.last:after {
-  color: transparent;
+  color: rgba(255, 255, 255, 0);
 }
 
 /* line 133, sass/partials/_typography.scss */
@@ -3483,17 +3463,49 @@ em {
   cursor: pointer;
 }
 
-/* line 31, sass/partials/_images.scss */
+/* line 34, sass/partials/_images.scss */
+.tm-bg_img-container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  overflow: hidden;
+}
+
+/* line 45, sass/partials/_images.scss */
+.tm-bg_img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  overflow: hidden;
+  user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+/* line 63, sass/partials/_images.scss */
 .tm-cover-img--sw {
   background-image: url("http://mckaythethird.com/img/tm--work-card-img--shapeways.jpg");
 }
 
-/* line 34, sass/partials/_images.scss */
+/* line 66, sass/partials/_images.scss */
 .tm-cover-img--iw {
   background-image: url("http://mckaythethird.com/img/tm--work-card-img--iw-2.jpg");
 }
 
-/* line 37, sass/partials/_images.scss */
+/* line 69, sass/partials/_images.scss */
 .tm-cover-img--misc {
   background-image: url("http://mckaythethird.com/img/tm--work-card-misc.jpg");
 }
@@ -3538,12 +3550,12 @@ a, a:visited, a:active {
 }
 /* line 35, sass/partials/_links.scss */
 .no-touch .tm--link-light-grey:hover, .tm--link-light-grey:focus, .no-touch .tm--link-light-grey:visited:hover, .tm--link-light-grey:visited:focus, .no-touch .tm--link-light-grey:active:hover, .tm--link-light-grey:active:focus {
-  color: #A0A0A0;
+  color: #B7A15D;
   cursor: pointer;
 }
 /* line 39, sass/partials/_links.scss */
 .tm--link-light-grey.active, .no-touch .tm--link-light-grey.active:hover, .tm--link-light-grey:visited.active, .no-touch .tm--link-light-grey:visited.active:hover, .tm--link-light-grey:active.active, .no-touch .tm--link-light-grey:active.active:hover {
-  color: #A0A0A0;
+  color: #B7A15D;
   cursor: default;
 }
 
@@ -3796,7 +3808,7 @@ a.tm--link-active:after {
 
 /* line 24, sass/partials/_grid.scss */
 .tm-grid--gutters {
-  margin: -2% 0 2% -2%;
+  margin: -2% 0 0 -2%;
 }
 
 /* line 27, sass/partials/_grid.scss */
@@ -3953,145 +3965,150 @@ a.tm--link-active:after {
   }
 
   /* line 131, sass/partials/_grid.scss */
+  .tm--float-none-mob {
+    float: none;
+  }
+
+  /* line 134, sass/partials/_grid.scss */
   .tm--padding-0-mob {
     padding: 0;
   }
 
-  /* line 134, sass/partials/_grid.scss */
+  /* line 137, sass/partials/_grid.scss */
   .tm--margin-bottom-2-mob {
     margin-bottom: 10px;
   }
 
-  /* line 137, sass/partials/_grid.scss */
+  /* line 140, sass/partials/_grid.scss */
   .tm--margin-bottom-3-mob {
     margin-bottom: 15px;
   }
 
-  /* line 140, sass/partials/_grid.scss */
+  /* line 143, sass/partials/_grid.scss */
   .tm--padding-top-6-mob {
     padding-top: 30px;
   }
 
-  /* line 143, sass/partials/_grid.scss */
+  /* line 146, sass/partials/_grid.scss */
   .tm--margin-top-4-mob {
     margin-top: 20px;
   }
 
-  /* line 146, sass/partials/_grid.scss */
+  /* line 149, sass/partials/_grid.scss */
   .tm--margin-bottom-0-mob {
     margin-bottom: 0;
   }
 
-  /* line 149, sass/partials/_grid.scss */
+  /* line 152, sass/partials/_grid.scss */
   .tm--padding-5-mob {
     padding: 25px;
   }
 
-  /* line 152, sass/partials/_grid.scss */
+  /* line 155, sass/partials/_grid.scss */
   .select-work, .tm-about-intro {
     padding-top: 7%;
   }
 
-  /* line 155, sass/partials/_grid.scss */
+  /* line 158, sass/partials/_grid.scss */
   .tm-about-intro {
     margin-top: 2rem;
   }
 
-  /* line 158, sass/partials/_grid.scss */
+  /* line 161, sass/partials/_grid.scss */
   .tm--font-size-24--mob {
     font-size: 24px;
   }
 
-  /* line 161, sass/partials/_grid.scss */
+  /* line 164, sass/partials/_grid.scss */
   .tm--font-size-30--mob {
     font-size: 30px;
   }
 
-  /* line 164, sass/partials/_grid.scss */
+  /* line 167, sass/partials/_grid.scss */
   .tm-project-footer {
     width: 86%;
     padding: 3rem 7%;
   }
 
-  /* line 168, sass/partials/_grid.scss */
+  /* line 171, sass/partials/_grid.scss */
   .tm--main-headline {
     font-size: 64px;
     line-height: 1em;
   }
 
-  /* line 172, sass/partials/_grid.scss */
+  /* line 175, sass/partials/_grid.scss */
   .tm--bg-image {
     background-image: none !important;
   }
 }
 /* medium screens to large */
 @media (min-width: 34em) and (max-width: 48em) {
-  /* line 179, sass/partials/_grid.scss */
+  /* line 182, sass/partials/_grid.scss */
   .small-tm-grid--fit > .tm-grid_cell {
     flex: 1;
   }
 
-  /* line 182, sass/partials/_grid.scss */
+  /* line 185, sass/partials/_grid.scss */
   .small-tm-grid--full > .tm-grid_cell {
     flex: 0 0 100%;
   }
 
-  /* line 185, sass/partials/_grid.scss */
+  /* line 188, sass/partials/_grid.scss */
   .small-tm-grid--1of2 > .tm-grid_cell {
     flex: 0 0 50%;
   }
 
-  /* line 188, sass/partials/_grid.scss */
+  /* line 191, sass/partials/_grid.scss */
   .small-tm-grid--1of2.tm-grid--gutters > .tm-grid_cell {
     flex: 0 0 48%;
   }
 
-  /* line 191, sass/partials/_grid.scss */
+  /* line 194, sass/partials/_grid.scss */
   .small-tm-grid--1of3 > .tm-grid_cell {
     flex: 0 0 33.3333%;
   }
 
-  /* line 194, sass/partials/_grid.scss */
+  /* line 197, sass/partials/_grid.scss */
   .small-tm-grid--1of4 > .tm-grid_cell {
     flex: 0 0 25%;
   }
 
-  /* line 197, sass/partials/_grid.scss */
+  /* line 200, sass/partials/_grid.scss */
   .tm--font-size-84--tab {
     font-size: 84px;
   }
 
-  /* line 200, sass/partials/_grid.scss */
+  /* line 203, sass/partials/_grid.scss */
   .tm--hide--tab {
     display: none;
   }
 
-  /* line 203, sass/partials/_grid.scss */
+  /* line 206, sass/partials/_grid.scss */
   .tm--width-three-qtr--tab {
     max-width: 75%;
   }
 
-  /* line 206, sass/partials/_grid.scss */
+  /* line 209, sass/partials/_grid.scss */
   .tm--text-center-tab {
     text-align: center;
   }
 
-  /* line 209, sass/partials/_grid.scss */
+  /* line 212, sass/partials/_grid.scss */
   .tm--text-left-tab {
     text-align: left;
   }
 
-  /* line 212, sass/partials/_grid.scss */
+  /* line 215, sass/partials/_grid.scss */
   .select-work, .tm-about-intro {
     padding-top: 7%;
   }
 
-  /* line 215, sass/partials/_grid.scss */
+  /* line 218, sass/partials/_grid.scss */
   .tm-about-intro {
     margin-top: 2rem;
   }
 
-  /* line 218, sass/partials/_grid.scss */
+  /* line 221, sass/partials/_grid.scss */
   .tm-project-footer {
     width: 86%;
     padding: 3rem 7%;
@@ -4099,7 +4116,7 @@ a.tm--link-active:after {
 }
 /*SMALL DETAIL FOR PROJECT FOOTER SPACING*/
 @media (max-width: 1334px) {
-  /* line 226, sass/partials/_grid.scss */
+  /* line 229, sass/partials/_grid.scss */
   .tm-project-footer {
     width: 86%;
     padding: 3rem 7%;
@@ -4107,127 +4124,127 @@ a.tm--link-active:after {
 }
 /*DETAILS FOR JUMBO TEXT*/
 @media (min-width: 1rem) and (max-width: 34rem) {
-  /* line 233, sass/partials/_grid.scss */
+  /* line 236, sass/partials/_grid.scss */
   .tm--main-headline {
     font-size: 3rem;
     line-height: .9em;
   }
 }
 @media (min-width: 34rem) and (max-width: 44rem) {
-  /* line 239, sass/partials/_grid.scss */
+  /* line 242, sass/partials/_grid.scss */
   .tm--main-headline {
     font-size: 4rem;
     line-height: .9em;
   }
 }
 @media (min-width: 44rem) and (max-width: 60rem) {
-  /* line 245, sass/partials/_grid.scss */
+  /* line 248, sass/partials/_grid.scss */
   .tm--main-headline {
     font-size: 5rem;
     line-height: .9em;
   }
 }
 @media (min-width: 60rem) and (max-width: 80rem) {
-  /* line 251, sass/partials/_grid.scss */
+  /* line 254, sass/partials/_grid.scss */
   .tm--main-headline {
     font-size: 6rem;
     line-height: .9em;
   }
 }
 @media (min-width: 80rem) {
-  /* line 257, sass/partials/_grid.scss */
+  /* line 260, sass/partials/_grid.scss */
   .tm--main-headline {
     font-size: 8rem;
     line-height: .9em;
   }
 }
 @media (max-width: 768px) {
-  /* line 264, sass/partials/_grid.scss */
+  /* line 267, sass/partials/_grid.scss */
   .tm--order-2-mob {
     order: 2;
   }
 }
 /* Large screens */
 @media (min-width: 48em) {
-  /* line 273, sass/partials/_grid.scss */
+  /* line 276, sass/partials/_grid.scss */
   .tm-footer-grid.large-tm-grid--fit > .tm-grid_cell {
     flex: 1;
   }
 
-  /* line 276, sass/partials/_grid.scss */
+  /* line 279, sass/partials/_grid.scss */
   .large-tm-grid--fit > .tm-grid_cell {
     flex: 1 !important;
   }
 
-  /* line 279, sass/partials/_grid.scss */
+  /* line 282, sass/partials/_grid.scss */
   .large-tm-grid--fit > .tm-grid_cell.tm-grid_cell-1of3 {
     flex: none !important;
     width: 33% !important;
   }
 
-  /* line 283, sass/partials/_grid.scss */
+  /* line 286, sass/partials/_grid.scss */
   .large-tm-grid--fit > .tm-grid_cell.tm-grid_cell-1of4 {
     flex: none !important;
     width: 25% !important;
   }
 
-  /* line 287, sass/partials/_grid.scss */
+  /* line 290, sass/partials/_grid.scss */
   .large-tm-grid--full > .tm-grid_cell {
     flex: 0 0 100%;
   }
 
-  /* line 290, sass/partials/_grid.scss */
+  /* line 293, sass/partials/_grid.scss */
   .tm-grid--gutters-large.large-tm-grid--1of2 > .tm-grid_cell {
     flex: 0 0 40%;
   }
 
-  /* line 293, sass/partials/_grid.scss */
+  /* line 296, sass/partials/_grid.scss */
   .large-tm-grid--1of2 > .tm-grid_cell {
     flex: 0 0 50%;
   }
 
-  /* line 296, sass/partials/_grid.scss */
+  /* line 299, sass/partials/_grid.scss */
   .large-tm-grid--1of2.tm-grid--gutters > .tm-grid_cell {
     flex: 0 0 48%;
   }
 
-  /* line 299, sass/partials/_grid.scss */
+  /* line 302, sass/partials/_grid.scss */
   .large-tm-grid--1of3 > .tm-grid_cell {
     flex: 0 0 33.3333%;
   }
 
-  /* line 302, sass/partials/_grid.scss */
+  /* line 305, sass/partials/_grid.scss */
   .large-tm-grid--1of3.tm-grid--gutters > .tm-grid_cell {
     flex: 0 0 31.3333%;
   }
 
-  /* line 305, sass/partials/_grid.scss */
+  /* line 308, sass/partials/_grid.scss */
   .large-tm-grid--1of4 > .tm-grid_cell {
     flex: 0 0 25%;
   }
 
-  /* line 308, sass/partials/_grid.scss */
+  /* line 311, sass/partials/_grid.scss */
   .large-tm-grid--fit > .tm-grid_cell.tm-grid--1of4 {
     flex: 0 0 25% !important;
   }
 
-  /* line 311, sass/partials/_grid.scss */
+  /* line 314, sass/partials/_grid.scss */
   .tm--centered--desk {
     margin-left: auto;
     margin-right: auto;
   }
 
-  /* line 315, sass/partials/_grid.scss */
+  /* line 318, sass/partials/_grid.scss */
   .tm--text-align-center--desk {
     text-align: center;
   }
 
-  /* line 318, sass/partials/_grid.scss */
+  /* line 321, sass/partials/_grid.scss */
   .tm--hide-mob, .tm--hide--tab {
     display: initial;
   }
 
-  /* line 321, sass/partials/_grid.scss */
+  /* line 324, sass/partials/_grid.scss */
   .tm--padding-0-desk {
     padding: 0;
   }

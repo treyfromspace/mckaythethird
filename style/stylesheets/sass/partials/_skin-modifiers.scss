@@ -64,6 +64,9 @@
 .tm--bg-spooky-black {
   background-color: $spooky-black;
 }
+.tm--bg-smokey-black {
+  background-color: $smokey-black;
+}
 .tm--bg-black {
   background-color: $true-black;
 }
@@ -106,35 +109,6 @@
   border-top: 2px solid $eerie-black;
 }
 
-// BACKGROUNDS
-.tm-bg_img-container {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-  left: 50%;
-  transform: translateX(-50%);
-  overflow: hidden;
-}
-.tm-bg_img {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-  left: 50%;
-  transform: translateX(-50%);
-  overflow: hidden;
-  user-drag: none;
-  user-select: none;
-  -moz-user-select: none;
-  -webkit-user-drag: none;
-  -webkit-user-select: none;
-  -ms-user-select: none;
-}
 
 // SHADOWS
 .tm--shadow-30-60 {

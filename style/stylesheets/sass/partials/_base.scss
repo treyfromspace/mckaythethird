@@ -27,7 +27,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
-  background-color: $light-grey;
+  background-color: $eerie-black;
 }
 ol, ul { list-style: none; }
 q, blockquote {
@@ -80,13 +80,13 @@ button, input, select, textarea {
   color: $eerie-black;
 }
 ::-moz-selection {
-  background: $gold;
-  color: $eerie-black;
+  background: scale-lightness($gold, 40%);
+  color: $smokey-black;
   text-shadow: none;
 }
 ::selection {
-  background: $gold;
-  color: $eerie-black;
+  background: scale-lightness($gold, 40%);
+  color: $smokey-black;
   text-shadow: none;
 }
 

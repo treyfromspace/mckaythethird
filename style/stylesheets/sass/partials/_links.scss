@@ -33,11 +33,11 @@ a,a:visited,a:active {
 .tm--link-light-grey,.tm--link-light-grey:visited,.tm--link-light-grey:active {
   color: $light-grey;
   .no-touch &:hover,&:focus {
-    color: $quicksilver-grey;
+    color: $gold;
     cursor: pointer;
   }
   &.active,.no-touch &.active:hover {
-    color: $quicksilver-grey;
+    color: $gold;
     cursor: default;
   }
 }
