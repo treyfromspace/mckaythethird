@@ -2416,12 +2416,17 @@ em {
 }
 
 /* line 34, sass/partials/_helpers.scss */
+.tm--padding-top-14-percent {
+  padding-top: 14%;
+}
+
+/* line 37, sass/partials/_helpers.scss */
 .tm--padding-vert-7-percent {
   padding-top: 7%;
   padding-bottom: 7%;
 }
 
-/* line 38, sass/partials/_helpers.scss */
+/* line 41, sass/partials/_helpers.scss */
 .tm--padding-horiz-7-percent {
   padding-left: 7%;
   padding-right: 7%;
@@ -3315,108 +3320,108 @@ em {
   padding-bottom: 50px !important;
 }
 
-/* line 57, sass/partials/_helpers.scss */
+/* line 60, sass/partials/_helpers.scss */
 .tm--display-block {
   display: block;
 }
 
-/* line 60, sass/partials/_helpers.scss */
+/* line 63, sass/partials/_helpers.scss */
 .tm--display-inline-block {
   display: inline-block;
 }
 
-/* line 63, sass/partials/_helpers.scss */
+/* line 66, sass/partials/_helpers.scss */
 .tm--display-table-cell {
   display: table-cell;
 }
 
-/* line 66, sass/partials/_helpers.scss */
+/* line 69, sass/partials/_helpers.scss */
 .tm--vertical-align-middle {
   vertical-align: middle;
 }
 
-/* line 69, sass/partials/_helpers.scss */
+/* line 72, sass/partials/_helpers.scss */
 .tm--vertical-align-bot {
   vertical-align: bottom;
 }
 
-/* line 73, sass/partials/_helpers.scss */
+/* line 76, sass/partials/_helpers.scss */
 .tm--float-left {
   float: left;
 }
 
-/* line 76, sass/partials/_helpers.scss */
+/* line 79, sass/partials/_helpers.scss */
 .tm--float-right {
   float: right;
 }
 
-/* line 79, sass/partials/_helpers.scss */
+/* line 82, sass/partials/_helpers.scss */
 .tm--float-none {
   float: none;
 }
 
-/* line 82, sass/partials/_helpers.scss */
+/* line 85, sass/partials/_helpers.scss */
 .tm--clear-both {
   clear: both;
 }
 
-/* line 87, sass/partials/_helpers.scss */
+/* line 90, sass/partials/_helpers.scss */
 .tm--width-half {
   width: 50%;
 }
 
-/* line 90, sass/partials/_helpers.scss */
+/* line 93, sass/partials/_helpers.scss */
 .tm--max-width-half {
   max-width: 50%;
 }
 
-/* line 93, sass/partials/_helpers.scss */
+/* line 96, sass/partials/_helpers.scss */
 .tm--width-1-3 {
   width: 33.33%;
 }
 
-/* line 96, sass/partials/_helpers.scss */
+/* line 99, sass/partials/_helpers.scss */
 .tm--max-width-half {
   max-width: 50%;
 }
 
-/* line 99, sass/partials/_helpers.scss */
+/* line 102, sass/partials/_helpers.scss */
 .tm--width-full {
   width: 100%;
 }
 
-/* line 102, sass/partials/_helpers.scss */
+/* line 105, sass/partials/_helpers.scss */
 .tm--max-width-full {
   max-width: 100%;
 }
 
-/* line 105, sass/partials/_helpers.scss */
+/* line 108, sass/partials/_helpers.scss */
 .tm--max-width-800 {
   max-width: 800px;
 }
 
-/* line 108, sass/partials/_helpers.scss */
+/* line 111, sass/partials/_helpers.scss */
 .tm--max-width-1280 {
   max-width: 1280px;
 }
 
-/* line 111, sass/partials/_helpers.scss */
+/* line 114, sass/partials/_helpers.scss */
 .tm--max-width-1620 {
   max-width: 1620px;
 }
 
-/* line 116, sass/partials/_helpers.scss */
+/* line 119, sass/partials/_helpers.scss */
 .tm--height-full {
   height: 100%;
 }
 
 @media (min-width: 1em) and (max-width: 34em) {
-  /* line 122, sass/partials/_helpers.scss */
+  /* line 125, sass/partials/_helpers.scss */
   .tm--display-block-mob {
     display: block;
   }
 
-  /* line 125, sass/partials/_helpers.scss */
+  /* line 128, sass/partials/_helpers.scss */
   .tm--hide-mob {
     display: none;
   }
