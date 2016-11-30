@@ -55,6 +55,19 @@
 @include paddingIncBuilder(9, 9);
 @include paddingIncBuilder(10, 10);
 
+@media (min-width: 1em) and (max-width: 34em) {
+  @include paddingIncBuilder(0, '0-mob');
+  @include paddingIncBuilder(.5, '1-2-mob');
+  @include paddingIncBuilder(1, '1-mob');
+  @include paddingIncBuilder(2, '2-mob');
+  @include paddingIncBuilder(3, '3-mob');
+  @include paddingIncBuilder(4, '4-mob');
+  @include paddingIncBuilder(5, '5-mob');
+  @include paddingIncBuilder(6, '6-mob');
+  @include paddingIncBuilder(7, '7-mob');
+}
+
+
 
 // DISPLAY MODS
 .tm--display-block {
@@ -127,6 +140,9 @@
   }
   .tm--hide-mob {
     display: none;
+  }
+  .tm--padding-right-2-mob {
+    padding-right: 10px;
   }
 }
 
