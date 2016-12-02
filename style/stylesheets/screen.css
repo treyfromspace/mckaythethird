@@ -4428,8 +4428,8 @@ a.tm--link-active:after {
 
 /* line 210, sass/partials/_links.scss */
 .no-touch .btn--white-outline:hover, .btn--white-outline:active, .btn--white-outline:focus {
-  border: 1px solid #A0A0A0;
-  color: #dbdbdb;
+  background-color: #dbdbdb;
+  color: #0F0F0F;
   cursor: pointer;
 }
 
@@ -4452,8 +4452,8 @@ a.tm--link-active:after {
 
 /* line 232, sass/partials/_links.scss */
 .no-touch .btn--gold-outline:hover, .btn--gold-outline:active, .btn--gold-outline:focus {
-  border: 1px solid #86743b;
-  color: #dbdbdb;
+  background-color: #B7A15D;
+  color: #0F0F0F;
   cursor: pointer;
 }
 

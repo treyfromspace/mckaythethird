@@ -208,8 +208,8 @@ a.tm--link-active:after {
   transition: all 0.3s ease;
 }
 .no-touch .btn--white-outline:hover, .btn--white-outline:active,.btn--white-outline:focus {
-  border: 1px solid $quicksilver-grey;
-  color: $light-grey;
+  background-color: $light-grey;
+  color: $smokey-black;
   cursor: pointer;
 }
 
@@ -230,7 +230,7 @@ a.tm--link-active:after {
   transition: all 0.3s ease;
 }
 .no-touch .btn--gold-outline:hover, .btn--gold-outline:active,.btn--gold-outline:focus {
-  border: 1px solid scale-lightness($gold, -30%);
-  color: $light-grey;
+  background-color: $gold;
+  color: $smokey-black;
   cursor: pointer;
 }
