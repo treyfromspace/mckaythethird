@@ -1039,22 +1039,27 @@ em {
   color: rgba(255, 255, 255, 0);
 }
 
-/* line 133, sass/partials/_typography.scss */
+/* line 131, sass/partials/_typography.scss */
+.tm-logotype {
+  z-index: 1001;
+}
+
+/* line 136, sass/partials/_typography.scss */
 .tm--text-center {
   text-align: center;
 }
 
-/* line 136, sass/partials/_typography.scss */
+/* line 139, sass/partials/_typography.scss */
 .tm--text-right {
   text-align: right;
 }
 
-/* line 139, sass/partials/_typography.scss */
+/* line 142, sass/partials/_typography.scss */
 .tm--blackletter-align {
   margin-left: -3px;
 }
 
-/* line 143, sass/partials/_typography.scss */
+/* line 146, sass/partials/_typography.scss */
 .tm--logotype:after {
   content: "~";
   padding: 0 5px 0 0;
