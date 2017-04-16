@@ -31,12 +31,19 @@
 .tm--padding-top-7-percent {
   padding-top: 7%;
 }
+.tm--padding-top-10-percent {
+  padding-top: 10%;
+}
 .tm--padding-top-14-percent {
   padding-top: 14%;
 }
 .tm--padding-vert-7-percent {
   padding-top:7%;
   padding-bottom:7%;
+}
+.tm--padding-vert-10-percent {
+  padding-top:10%;
+  padding-bottom:10%;
 }
 .tm--padding-horiz-7-percent {
   padding-left:7%;
@@ -84,6 +91,9 @@
 }
 .tm--vertical-align-bot {
   vertical-align: bottom;
+}
+.tm--position-relative {
+  position: relative;
 }
 // FLOATS
 .tm--float-left {
@@ -144,5 +154,19 @@
   .tm--padding-right-2-mob {
     padding-right: 10px;
   }
+  .tm--max-width-full__mob {
+    max-width:100%;
+  }
+}
+
+// MEDIUM SCREENS
+@media (min-width:34em) and (max-width:60em) {
+  .tm--max-width-3-4__tab {
+  max-width: 75%;
+}
+.tm--center-element__tab {
+  margin-left: auto;
+  margin-right:auto;
+}
 }
 

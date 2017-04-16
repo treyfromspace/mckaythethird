@@ -34,6 +34,35 @@
 .past-roles {
   margin-top:5%;
 }
+.tm--exerpt {
+  padding-left: 5rem;
+}
+
+.tm-dash {
+    position: absolute;
+    top: 0.5rem;
+    left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 0;
+    width: 2.5rem;
+    display: inline-block;
+    vertical-align: middle;
+    border-top: 0.1rem solid $off-white;
+    border-color: $off-white;
+    color: $off-white;
+    background-color: $off-white;
+    opacity: 0.9;
+}
+.tm-dash__gold {
+  border-color: $gold;
+}
+.tm-dash__black {
+  border-color: $eerie-black;
+}
+.tm-exerpt--text {
+  line-height: 1.8rem;
+}
 
 // POSTS
 .post {
@@ -116,7 +145,18 @@
 }
 .project-copy {
   max-width:900px;
+  line-height: 2rem;
 }
 .project-section {
   margin: 7% 0;
 }
+
+// SMALL SCREENS
+@media (min-width: 1em) and (max-width: 34em) {
+    .tm--exerpt {
+      padding-left: 3rem;
+    }
+    .tm-dash {
+      width: 1.5rem;
+    }
+  }

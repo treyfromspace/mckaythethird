@@ -29,6 +29,10 @@ em {
 }
 
 // FONT SIZES
+.tm--font-size-12 {
+  font-size: 12px;
+  line-height: 1.6em;
+}
 .tm--font-size-14 {
   font-size: 14px;
   line-height: 1.5em;
@@ -55,6 +59,7 @@ em {
 }
 .tm--font-size-30 {
   font-size: 30px;
+  line-height: 1.5em;
 }
 .tm--font-size-32 {
   font-size: 32px;
@@ -75,6 +80,10 @@ em {
 .tm--font-size-48 {
   font-size: 48px;
   line-height: 1em;
+}
+.tm--font-size-58 {
+  font-size: 58px;
+  line-height: 1.4em;
 }
 .tm--font-size-72 {
   font-size: 72px;
@@ -131,6 +140,9 @@ em {
 .tm-logotype {
   z-index: 1001;
 }
+.tm--line-height-2rem {
+  line-height: 2rem;
+}
 
 // TEXT ALIGN
 .tm--text-center {
@@ -147,4 +159,27 @@ em {
   content: "~";
   padding: 0 5px 0 0;
   color: rgba(0,0,0,0.2);
+}
+
+// RESPONSIVE TYPE
+@media (min-width: 1em) and (max-width: 34em) {
+  .tm--font-size--14--mob {
+    font-size:14px;
+    line-height: 1.5em;
+  }
+  .tm--font-size-18--mob {
+    font-size: 18px;
+    line-height: 1.5em;
+  }
+  .tm--font-size-24--mob {
+    font-size: 24px;
+    line-height: 1.5em;
+  }
+  .tm--font-size-32--mob {
+    font-size: 32px;
+    line-height: 1.5em;
+  }
+  .tm--font-size-60--mob {
+    font-size: 60px;
+  }
 }
