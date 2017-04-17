@@ -422,7 +422,7 @@ button, input, select, textarea {
 
 /* line 138, sass/partials/_layout.scss */
 .project-info {
-  max-width: 40em;
+  max-width: 36em;
   margin: 0 auto;
 }
 
@@ -754,26 +754,31 @@ button, input, select, textarea {
 }
 
 /* line 99, sass/partials/_skin-modifiers.scss */
+.tm--border-bot-grey-1 {
+  border-bottom: 1px solid #e0e3e5;
+}
+
+/* line 102, sass/partials/_skin-modifiers.scss */
 .tm--border-top-grey-2 {
   border-top: 2px solid #e0e3e5;
 }
 
-/* line 102, sass/partials/_skin-modifiers.scss */
+/* line 105, sass/partials/_skin-modifiers.scss */
 .tm--border-top-dark-grey-2 {
   border-top: 2px solid #323334;
 }
 
-/* line 105, sass/partials/_skin-modifiers.scss */
+/* line 108, sass/partials/_skin-modifiers.scss */
 .tm--border-bottom-dark-grey-2 {
   border-bottom: 2px solid #323334;
 }
 
-/* line 108, sass/partials/_skin-modifiers.scss */
+/* line 111, sass/partials/_skin-modifiers.scss */
 .tm--border-top-black-2 {
   border-top: 2px solid #1e1e1e;
 }
 
-/* line 114, sass/partials/_skin-modifiers.scss */
+/* line 117, sass/partials/_skin-modifiers.scss */
 .tm--shadow-30-60 {
   -webkit-box-shadow: 0px 30px 60px 0px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0px 30px 60px 0px rgba(0, 0, 0, 0.3);
@@ -782,112 +787,112 @@ button, input, select, textarea {
 
 /*DETAILS FOR JUMBO TEXT*/
 @media (min-width: 1px) and (max-width: 700px) {
-  /* line 122, sass/partials/_skin-modifiers.scss */
+  /* line 125, sass/partials/_skin-modifiers.scss */
   .tm-bg_img {
     display: none !important;
     opacity: 0 !important;
   }
 }
-/* line 129, sass/partials/_skin-modifiers.scss */
+/* line 132, sass/partials/_skin-modifiers.scss */
 .tm--opacity-0 {
   opacity: 0;
 }
 
-/* line 132, sass/partials/_skin-modifiers.scss */
+/* line 135, sass/partials/_skin-modifiers.scss */
 .tm--opacity-01 {
   opacity: 0.1;
 }
 
-/* line 135, sass/partials/_skin-modifiers.scss */
+/* line 138, sass/partials/_skin-modifiers.scss */
 .tm--opacity-02 {
   opacity: 0.2;
 }
 
-/* line 138, sass/partials/_skin-modifiers.scss */
+/* line 141, sass/partials/_skin-modifiers.scss */
 .tm--opacity-04 {
   opacity: 0.4;
 }
 
-/* line 141, sass/partials/_skin-modifiers.scss */
+/* line 144, sass/partials/_skin-modifiers.scss */
 .tm--opacity-06 {
   opacity: 0.6;
 }
 
-/* line 144, sass/partials/_skin-modifiers.scss */
+/* line 147, sass/partials/_skin-modifiers.scss */
 .tm--opacity-1 {
   opacity: 1;
 }
 
-/* line 147, sass/partials/_skin-modifiers.scss */
+/* line 150, sass/partials/_skin-modifiers.scss */
 .tm--opacity-hover-08 {
   transition: all 0.3s ease;
 }
-/* line 149, sass/partials/_skin-modifiers.scss */
+/* line 152, sass/partials/_skin-modifiers.scss */
 .no-touch .tm--opacity-hover-08:hover, .tm--opacity-hover-08:focus {
   opacity: 0.8;
 }
 
-/* line 153, sass/partials/_skin-modifiers.scss */
+/* line 156, sass/partials/_skin-modifiers.scss */
 .tm--opacity-hover-06 {
   transition: all 0.3s ease;
 }
-/* line 155, sass/partials/_skin-modifiers.scss */
+/* line 158, sass/partials/_skin-modifiers.scss */
 .no-touch .tm--opacity-hover-06:hover, .tm--opacity-hover-06:focus {
   opacity: 0.6;
 }
 
-/* line 159, sass/partials/_skin-modifiers.scss */
+/* line 162, sass/partials/_skin-modifiers.scss */
 .tm--opacity-hover-04 {
   transition: all 0.3s ease;
 }
-/* line 161, sass/partials/_skin-modifiers.scss */
+/* line 164, sass/partials/_skin-modifiers.scss */
 .no-touch .tm--opacity-hover-04:hover, .tm--opacity-hover-04:focus {
   opacity: 0.4;
 }
 
-/* line 165, sass/partials/_skin-modifiers.scss */
+/* line 168, sass/partials/_skin-modifiers.scss */
 .tm--opacity-hover-02 {
   transition: all 0.3s ease;
 }
-/* line 167, sass/partials/_skin-modifiers.scss */
+/* line 170, sass/partials/_skin-modifiers.scss */
 .no-touch .tm--opacity-hover-02:hover, .tm--opacity-hover-02:focus {
   opacity: 0.2;
 }
 
-/* line 171, sass/partials/_skin-modifiers.scss */
+/* line 174, sass/partials/_skin-modifiers.scss */
 .tm--opacity-hover-0 {
   transition: all 0.3s ease;
 }
-/* line 173, sass/partials/_skin-modifiers.scss */
+/* line 176, sass/partials/_skin-modifiers.scss */
 .no-touch .tm--opacity-hover-0:hover, .tm--opacity-hover-0:focus {
   opacity: 0;
 }
 
-/* line 179, sass/partials/_skin-modifiers.scss */
+/* line 182, sass/partials/_skin-modifiers.scss */
 .tm--overflow-hidden {
   overflow: hidden;
 }
 
 @media (min-width: 1px) and (max-width: 34em) {
-  /* line 185, sass/partials/_skin-modifiers.scss */
+  /* line 188, sass/partials/_skin-modifiers.scss */
   .tm--show-mob {
     visibility: visible;
   }
 
-  /* line 188, sass/partials/_skin-modifiers.scss */
+  /* line 191, sass/partials/_skin-modifiers.scss */
   .tm--hide-mob {
     display: none;
     visibility: hidden;
   }
 }
 @media (min-width: 34em) {
-  /* line 196, sass/partials/_skin-modifiers.scss */
+  /* line 199, sass/partials/_skin-modifiers.scss */
   .tm--hide-tab {
     visibility: hidden;
   }
 }
 @media (min-width: 48em) {
-  /* line 202, sass/partials/_skin-modifiers.scss */
+  /* line 205, sass/partials/_skin-modifiers.scss */
   .tm--hide-desk {
     visibility: hidden;
   }
@@ -1019,7 +1024,7 @@ em {
 /* line 84, sass/partials/_typography.scss */
 .tm--font-size-58 {
   font-size: 58px;
-  line-height: 1.4em;
+  line-height: 1.3em;
 }
 
 /* line 88, sass/partials/_typography.scss */
