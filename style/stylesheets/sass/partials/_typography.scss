@@ -8,6 +8,7 @@ h2 {
 p {
   margin: 0;
   line-height:  1.6em;
+  -webkit-font-smoothing: antialiased;
 }
 em {
   font-style: italic;
@@ -17,6 +18,7 @@ em {
 }
 .tm--font-sans {
   font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
 .tm--font-weight-normal {
   font-weight: normal;
